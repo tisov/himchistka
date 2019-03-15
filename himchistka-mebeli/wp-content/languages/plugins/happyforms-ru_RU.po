@@ -1,0 +1,3176 @@
+# Translation of Plugins - Contact Form to Manage and respond to conversations with customers — HappyForms - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Contact Form to Manage and respond to conversations with customers — HappyForms - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-09-14 19:54:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Contact Form to Manage and respond to conversations with customers — HappyForms - Stable (latest release)\n"
+
+#: inc/templates/customize-form-setup.php:52
+msgid "Submit button label"
+msgstr "Надпись на кнопке"
+
+#: inc/templates/customize-form-setup.php:33
+msgid "Email display name"
+msgstr "Показывать почту"
+
+#: inc/classes/parts/class-part-date.php:221
+msgid "Year input does not match minimum and maximum value allowed."
+msgstr "Ввод года не соответствует минимальному и максимальному допустимому значению."
+
+#: inc/templates/parts/customize-single-line-text.php:46
+msgid "Use value as email subject"
+msgstr "Использовать значение в качестве темы письма"
+
+#: inc/classes/class-message-controller.php:788
+msgid "Reply to this message and mark it as read"
+msgstr "Ответьте на это сообщение и отметьте его как прочитанное"
+
+#: inc/templates/parts/customize-rating.php:48
+msgid "Thumbs"
+msgstr "Лайки"
+
+#: inc/templates/parts/customize-rating.php:47
+msgid "Smileys"
+msgstr "Смайлы"
+
+#: inc/templates/parts/customize-rating.php:44
+msgid "Rating visuals"
+msgstr "Вид рейтинга"
+
+#: inc/templates/parts/customize-rating.php:40
+msgid "Scale of 1 to 5"
+msgstr "Шкала от 1 до 5"
+
+#: inc/templates/parts/customize-rating.php:39
+msgid "No / Yes"
+msgstr "Нет / Да"
+
+#: inc/templates/parts/customize-rating.php:37
+msgid "Rating type"
+msgstr "Тип рейтинга"
+
+#: inc/templates/parts/customize-narrative.php:26
+msgid "Each input is required"
+msgstr "Обязательно при каждом заполнении"
+
+#: inc/templates/customize-form-setup.php:132
+msgid "If your form contains an email field, recipients will receive an email with this sender name."
+msgstr "Если ваша форма содержит поле email, то получатели получат письмо с именем отправителя."
+
+#: inc/classes/parts/class-part-rating.php:184
+#: inc/templates/parts/frontend-rating-yesno.php:17
+msgid "Yes"
+msgstr "Да"
+
+#: inc/classes/parts/class-part-rating.php:182
+#: inc/templates/parts/frontend-rating-yesno.php:9
+msgid "No"
+msgstr "Нет"
+
+#: inc/classes/parts/class-part-rating.php:10
+msgid "For collecting opinions using stars and emoji scales."
+msgstr "Для сбора мнений с использованием звезд, эмози и лайков."
+
+#: inc/classes/parts/class-part-narrative.php:9
+msgid "For adding fill-in-the-blank style inputs to a paragraph of text."
+msgstr "Для заполнения пустот в тексте."
+
+#: inc/classes/parts/class-part-narrative.php:8
+#: inc/classes/parts/class-part-narrative.php:29
+msgid "Story"
+msgstr "История"
+
+#: inc/classes/class-form-styles.php:797
+msgid "Item background on hover"
+msgstr "Фон элемента при наведении"
+
+#: inc/classes/class-form-styles.php:792
+msgid "Item background"
+msgstr "Фон элемента"
+
+#: inc/templates/parts/customize-address.php:82
+#: inc/templates/parts/customize-checkbox.php:58
+#: inc/templates/parts/customize-date.php:104
+#: inc/templates/parts/customize-email.php:50
+#: inc/templates/parts/customize-legal.php:9
+#: inc/templates/parts/customize-multi-line-text.php:50
+#: inc/templates/parts/customize-narrative.php:36
+#: inc/templates/parts/customize-number.php:79
+#: inc/templates/parts/customize-phone.php:73
+#: inc/templates/parts/customize-placeholder.php:31
+#: inc/templates/parts/customize-radio.php:58
+#: inc/templates/parts/customize-rating.php:78
+#: inc/templates/parts/customize-scale.php:90
+#: inc/templates/parts/customize-select.php:57
+#: inc/templates/parts/customize-single-line-text.php:55
+#: inc/templates/parts/customize-table.php:74
+#: inc/templates/parts/customize-title.php:43
+#: inc/templates/parts/customize-website-url.php:50
+msgid "Auto"
+msgstr "Автоматически"
+
+#: inc/templates/parts/customize-address.php:81
+#: inc/templates/parts/customize-checkbox.php:57
+#: inc/templates/parts/customize-date.php:103
+#: inc/templates/parts/customize-email.php:49
+#: inc/templates/parts/customize-legal.php:8
+#: inc/templates/parts/customize-multi-line-text.php:49
+#: inc/templates/parts/customize-narrative.php:35
+#: inc/templates/parts/customize-number.php:78
+#: inc/templates/parts/customize-phone.php:72
+#: inc/templates/parts/customize-placeholder.php:30
+#: inc/templates/parts/customize-radio.php:57
+#: inc/templates/parts/customize-rating.php:77
+#: inc/templates/parts/customize-scale.php:89
+#: inc/templates/parts/customize-select.php:56
+#: inc/templates/parts/customize-single-line-text.php:54
+#: inc/templates/parts/customize-table.php:73
+#: inc/templates/parts/customize-title.php:42
+#: inc/templates/parts/customize-website-url.php:49
+msgid "Third"
+msgstr "Треть"
+
+#: inc/classes/class-form-styles.php:802
+msgid "Tables"
+msgstr "Таблицы"
+
+#: inc/classes/class-form-controller.php:968
+msgid "Please review your submission..."
+msgstr "Просмотрите свое сообщение"
+
+#: inc/templates/parts/customize-scale.php:72
+msgid "Max value label"
+msgstr "Название макс. значения"
+
+#: inc/templates/parts/customize-scale.php:68
+msgid "Min value label"
+msgstr "Название мин. значения"
+
+#: inc/templates/customize-form-steps.php:5
+msgid "Build"
+msgstr "Форма"
+
+#: inc/templates/customize-form-setup.php:150
+msgid "Let your users review their submission before confirming it."
+msgstr "Перед тем, как отправить, попросите своих пользователей ознакомиться с их сообщением."
+
+#: inc/templates/customize-form-setup.php:113
+msgid "Review button text"
+msgstr "Надпись на кнопке"
+
+#: inc/templates/customize-form-setup.php:108
+msgid "Preview values before submission"
+msgstr "Предпросмотр сообщения"
+
+#: inc/classes/parts/class-part-number.php:180
+msgid "This field does not match minimum and maximum allowed value."
+msgstr "Это поле не соответствует минимальному и максимально допустимому значению."
+
+#: inc/classes/class-form-controller.php:289
+msgid "Review submission"
+msgstr "Предпросмотр сообщения"
+
+#: inc/templates/parts/frontend-select.php:23
+#: inc/templates/parts/frontend-select.php:29
+#: inc/templates/parts/frontend-title.php:21
+#: inc/templates/parts/frontend-title.php:27
+msgid "- Select -"
+msgstr "- Выбрать -"
+
+#: inc/templates/parts/customize-select.php:48
+msgid "Make searchable"
+msgstr "Использовать в поиске"
+
+#: inc/templates/parts/customize-phone.php:63
+msgid "Allow other regions to be selected"
+msgstr "Разрешить выбор других регионов"
+
+#: inc/templates/parts/customize-phone.php:51
+msgid "Default phone number region"
+msgstr "Телефонные номера региона по умолчанию"
+
+#: inc/templates/parts/customize-phone.php:46
+msgid "International format"
+msgstr "Международный формат"
+
+#: inc/classes/class-form-styles.php:733
+msgid "Items"
+msgstr "Элементы"
+
+#: inc/classes/class-form-styles.php:723
+msgid "Dropdowns"
+msgstr "Выпадающие списки"
+
+#: inc/templates/customize-form-setup.php:41
+msgid "Email content"
+msgstr "Содержимое письма"
+
+#: inc/templates/customize-form-setup.php:28
+msgid "Send confirmation email"
+msgstr "Отправить подтверждение по электронной почте"
+
+#: inc/templates/customize-form-setup.php:21
+#: inc/templates/customize-form-setup.php:37
+msgid "Email subject"
+msgstr "Тема письма"
+
+#: inc/templates/customize-form-setup.php:12
+msgid "Receive submission alerts"
+msgstr "Получать уведомления о сообщении"
+
+#: inc/classes/class-message-admin.php:683
+msgid "View"
+msgstr "Посмотреть"
+
+#: inc/classes/class-form-styles.php:752 inc/classes/class-form-styles.php:891
+msgid "Text focused"
+msgstr "Текст элемента в фокусе "
+
+#: inc/classes/class-form-styles.php:747 inc/classes/class-form-styles.php:876
+msgid "Background focused"
+msgstr "Фон элемента в фокусе "
+
+#: inc/classes/class-form-styles.php:772
+msgid "Checkbox & Radio checkmark"
+msgstr "Галочки во флажках и переключателях"
+
+#: inc/classes/class-form-styles.php:767
+msgid "Checkbox & Radio background focused"
+msgstr "Фон активного флажка и переключателя"
+
+#: inc/classes/class-form-styles.php:762
+msgid "Checkbox & Radio background"
+msgstr "Фон флажка и переключателя"
+
+#: inc/classes/class-form-styles.php:757
+msgid "Checkboxes & Radios"
+msgstr "Флажки и переключатели"
+
+#: inc/templates/parts/customize-table.php:63
+msgid "Add row"
+msgstr "Добавить ряд"
+
+#: inc/templates/parts/customize-table.php:60
+msgid "No rows added yet. Add one by clicking the <i>Add row</i> link below."
+msgstr "Строки не добавлены. Добавьте одну, нажав <i>Добавить строку</i> ниже."
+
+#: inc/templates/parts/customize-table.php:53
+msgid "Add column"
+msgstr "Добавить столбец"
+
+#: inc/templates/parts/customize-table.php:50
+msgid "No columns added yet. Add one by clicking the <i>Add column</i> link below."
+msgstr "Столбцы не добавлены. Добавьте один из них, нажав <i>Добавить столбец </i> ниже."
+
+#: inc/templates/parts/customize-table.php:43
+#: inc/templates/parts/customize-table.php:59
+msgid "Rows"
+msgstr "Ряды"
+
+#: inc/templates/parts/customize-table.php:42
+#: inc/templates/parts/customize-table.php:49
+msgid "Columns"
+msgstr "Столбцы"
+
+#: inc/templates/parts/customize-table.php:38
+msgid "Allow multiple selections"
+msgstr "Разрешить множественный выбор"
+
+#: inc/templates/parts/customize-table.php:33
+msgid "Each row is required"
+msgstr "Каждая строка обязательна для заполнения"
+
+#: inc/templates/parts/customize-address.php:72
+#: inc/templates/parts/customize-checkbox.php:33
+#: inc/templates/parts/customize-date.php:48
+#: inc/templates/parts/customize-email.php:40
+#: inc/templates/parts/customize-multi-line-text.php:40
+#: inc/templates/parts/customize-number.php:50
+#: inc/templates/parts/customize-phone.php:40
+#: inc/templates/parts/customize-radio.php:33
+#: inc/templates/parts/customize-rating.php:33
+#: inc/templates/parts/customize-scale.php:43
+#: inc/templates/parts/customize-select.php:33
+#: inc/templates/parts/customize-single-line-text.php:40
+#: inc/templates/parts/customize-title.php:33
+#: inc/templates/parts/customize-website-url.php:40
+msgid "This is required"
+msgstr "Это обязательное поле"
+
+#: inc/classes/parts/class-part-table.php:9
+msgid "For radios and checkboxes displaying in a grid of rows and columns."
+msgstr "Для флажков и переключателей отображаемых в вид таблицы"
+
+#: inc/classes/class-form-styles.php:822
+msgid "Even row secondary"
+msgstr "Цвет текста четного ряда"
+
+#: inc/classes/class-form-styles.php:817
+msgid "Even row primary"
+msgstr "Цвет фона четного ряда"
+
+#: inc/classes/class-form-styles.php:812
+msgid "Odd row secondary"
+msgstr "Цвет текста нечетного ряда"
+
+#: inc/classes/class-form-styles.php:807
+msgid "Odd row primary"
+msgstr "Цвет фона нечетного ряда"
+
+#: inc/classes/parts/class-part-table.php:8
+msgid "Table"
+msgstr "Таблица"
+
+#: inc/templates/parts/customize-scale.php:58
+msgid "Default range to"
+msgstr "Диапазон по умолчанию до:"
+
+#: inc/templates/parts/customize-scale.php:54
+msgid "Default range from"
+msgstr "Диапазон по умолчанию от:"
+
+#: inc/templates/parts/customize-scale.php:49
+msgid "Allow range select"
+msgstr "Разрешить выбор диапазона"
+
+#: inc/templates/parts/customize-number.php:44
+#: inc/templates/parts/customize-scale.php:37
+msgid "Maximum value"
+msgstr "Макс. значение"
+
+#: inc/templates/parts/customize-number.php:40
+#: inc/templates/parts/customize-scale.php:33
+msgid "Minimum value"
+msgstr "Мин. значение"
+
+#: inc/templates/parts/customize-date.php:71
+msgid "Years order"
+msgstr "Сортировка"
+
+#: inc/templates/parts/customize-date.php:66
+msgid "End at"
+msgstr "Завершить"
+
+#: inc/templates/parts/customize-date.php:62
+msgid "Start from"
+msgstr "Начать"
+
+#: inc/templates/parts/customize-date.php:57
+msgid "Future years only"
+msgstr "Только будущие года"
+
+#: inc/templates/parts/customize-date.php:56
+msgid "Past years only"
+msgstr "Только прошлые года"
+
+#: inc/templates/parts/customize-date.php:55
+msgid "All years"
+msgstr "Все года"
+
+#: inc/helpers/helper-form-templates.php:841
+msgid "December"
+msgstr "Декабрь"
+
+#: inc/helpers/helper-form-templates.php:840
+msgid "November"
+msgstr "Ноябрь"
+
+#: inc/helpers/helper-form-templates.php:839
+msgid "October"
+msgstr "Октябрь"
+
+#: inc/helpers/helper-form-templates.php:838
+msgid "September"
+msgstr "Сентябрь"
+
+#: inc/helpers/helper-form-templates.php:837
+msgid "August"
+msgstr "Август"
+
+#: inc/helpers/helper-form-templates.php:836
+msgid "July"
+msgstr "Июль"
+
+#: inc/helpers/helper-form-templates.php:835
+msgid "June"
+msgstr "Июнь"
+
+#: inc/helpers/helper-form-templates.php:834
+msgid "May"
+msgstr "Май"
+
+#: inc/helpers/helper-form-templates.php:833
+msgid "April"
+msgstr "Апрель"
+
+#: inc/helpers/helper-form-templates.php:832
+msgid "March"
+msgstr "Март"
+
+#: inc/helpers/helper-form-templates.php:831
+msgid "February"
+msgstr "Февраль"
+
+#: inc/helpers/helper-form-templates.php:830
+msgid "January"
+msgstr "Январь"
+
+#: inc/classes/parts/class-part-phone.php:74
+msgid "Confirm Phone"
+msgstr "Подтвердить телефон"
+
+#: inc/templates/customize-form-part-footer.php:6
+msgid "Advanced"
+msgstr "Еще"
+
+#: inc/templates/customize-form-part-footer.php:5
+msgid "Done"
+msgstr "Готово"
+
+#: inc/templates/admin-message-edit.php:33
+msgid "Next response"
+msgstr "Следующий ответ"
+
+#: inc/templates/admin-message-edit.php:31
+msgid "Previous response"
+msgstr "Предыдущий ответ"
+
+#: inc/classes/class-message-controller.php:189
+msgid "No response found"
+msgstr "Не найдено ответа"
+
+#: inc/classes/class-message-controller.php:188
+msgid "Search Responses"
+msgstr "Поиск ответов"
+
+#: inc/classes/class-message-controller.php:187
+msgid "View Responses"
+msgstr "Просмотр ответов"
+
+#: inc/classes/class-message-controller.php:185
+msgid "Edit response"
+msgstr "Изменить ответ"
+
+#: inc/classes/class-message-controller.php:184
+msgid "Response"
+msgstr "Ответ"
+
+#: inc/classes/class-message-controller.php:183
+#: inc/classes/class-message-controller.php:191
+msgid "All Responses"
+msgstr "Все ответы"
+
+#: inc/classes/class-message-admin.php:275
+msgid "%s response updated."
+msgid_plural "%s responses updated."
+msgstr[0] "%s ответ обновлен."
+msgstr[1] "%s ответа обновлены."
+msgstr[2] "%s ответов обновлены."
+
+#: inc/classes/class-message-admin.php:252
+msgid "Response draft updated."
+msgstr "Черновик ответа обновлен."
+
+#: inc/classes/class-message-admin.php:251
+msgid "Response scheduled."
+msgstr "Ответ запланирован."
+
+#: inc/classes/class-message-admin.php:250
+msgid "Response submitted."
+msgstr "Ответ представлен."
+
+#: inc/classes/class-message-admin.php:249
+msgid "Response saved."
+msgstr "Ответ сохранен."
+
+#: inc/classes/class-message-admin.php:248
+msgid "Response published."
+msgstr "Ответ опубликован."
+
+#: inc/classes/class-message-admin.php:243
+#: inc/classes/class-message-admin.php:246
+msgid "Response updated."
+msgstr "Ответ обновлен."
+
+#: inc/classes/class-message-admin.php:238
+msgid "Preview response"
+msgstr "Предварительный просмотр ответа"
+
+#: inc/classes/class-message-admin.php:233
+#: inc/classes/class-message-controller.php:186
+msgid "View response"
+msgstr "Посмотреть ответ"
+
+#: inc/classes/class-message-admin.php:211
+msgid "View response #"
+msgstr "Посмотреть ответ №"
+
+#: inc/classes/class-happyforms-plugin.php:173
+#: inc/classes/class-happyforms-plugin.php:174
+msgid "Responses"
+msgstr "Ответы"
+
+#: inc/templates/parts/customize-date.php:88
+msgid "Minute step"
+msgstr "Шаг минут"
+
+#: inc/templates/parts/customize-date.php:83
+msgid "Max hour"
+msgstr "Максимальный час"
+
+#: inc/templates/parts/customize-date.php:79
+msgid "Min hour"
+msgstr "Минимальный час"
+
+#: inc/templates/parts/customize-date.php:43
+msgid "Current date and time"
+msgstr "Текущая дата и время"
+
+#: inc/templates/parts/customize-date.php:42
+msgid "Blank"
+msgstr "Пустой"
+
+#: inc/templates/parts/customize-address.php:66
+msgid "Google Geocoding API key"
+msgstr "API ключ для Google Geocoding"
+
+#: inc/templates/parts/customize-address.php:65
+msgid "Geolocation requires a"
+msgstr "Для геолокации необходим"
+
+#: inc/templates/parts/customize-address.php:61
+msgid "Google Places API key"
+msgstr "API ключ для Google Places"
+
+#: inc/templates/parts/customize-address.php:60
+msgid "Address autocompletion requires a"
+msgstr "Для автозаполнения адресов необходим"
+
+#: inc/templates/parts/customize-address.php:49
+msgid "Allow geolocation"
+msgstr "Разрешить геолокацию"
+
+#: inc/templates/customize-form-setup.php:126
+msgid "Each time a user submits a message, you'll receive an email with this subject."
+msgstr "Каждый раз, когда пользователь отправляет сообщение, вы получите электронное письмо с этим заголовком."
+
+#: inc/helpers/helper-form-templates.php:819
+msgid "Fetching location…"
+msgstr "Выбор места ..."
+
+#: inc/helpers/helper-form-templates.php:819
+msgid "Get my location"
+msgstr "Получить мое местоположение"
+
+#: inc/classes/parts/class-part-date.php:236
+msgid "Hour input does not match minimum and maximum value allowed."
+msgstr "Поле ввода часов не соответствует разрешенному минимальному и максимальному значениям."
+
+#: inc/classes/parts/class-part-date.php:8
+msgid "Date & Time"
+msgstr "Дата и время"
+
+#: inc/classes/class-form-controller.php:233
+msgid "You received a new message"
+msgstr "Вы получили новое сообщение"
+
+#: inc/classes/class-form-styles.php:689
+msgid "Placeholder &amp; Value alignment"
+msgstr "Выравнивание заполнителя &amp; значения"
+
+#: inc/classes/class-form-styles.php:679
+msgid "Description alignment"
+msgstr "Выравнивание описания"
+
+#: inc/classes/class-form-styles.php:664
+msgid "Title alignment"
+msgstr "Выравнивание заголовка"
+
+#: inc/classes/class-form-styles.php:534
+msgid "Direction"
+msgstr "Направление"
+
+#: inc/classes/class-form-styles.php:529
+msgid "Form width"
+msgstr "Ширина формы"
+
+#: inc/classes/class-form-styles.php:49
+msgid "Right-to-left"
+msgstr "Справа-налево"
+
+#: inc/classes/class-form-styles.php:48
+msgid "Left-to-right"
+msgstr "Слева-направо"
+
+#: inc/templates/parts/customize-select.php:42
+msgid "options"
+msgstr "опции"
+
+#: inc/templates/parts/customize-select.php:42
+msgid "Show all"
+msgstr "Показать все"
+
+#: inc/templates/parts/customize-email.php:13
+#: inc/templates/parts/customize-number.php:13
+#: inc/templates/parts/customize-phone.php:13
+#: inc/templates/parts/customize-single-line-text.php:13
+#: inc/templates/parts/customize-website-url.php:13
+msgid "Inside input"
+msgstr "Внутри поля ввода"
+
+#: inc/templates/parts/customize-address.php:14
+#: inc/templates/parts/customize-email.php:14
+#: inc/templates/parts/customize-multi-line-text.php:14
+#: inc/templates/parts/customize-number.php:14
+#: inc/templates/parts/customize-phone.php:14
+#: inc/templates/parts/customize-single-line-text.php:14
+#: inc/templates/parts/customize-website-url.php:14
+msgid "Display as placeholder"
+msgstr "Показать как заполнитель"
+
+#: inc/templates/parts/customize-address.php:13
+#: inc/templates/parts/customize-multi-line-text.php:13
+msgid "Inside"
+msgstr "Внутри"
+
+#: inc/templates/customize-form-setup.php:144
+msgid "Protect your form against bots using your Google ReCaptcha credentials."
+msgstr "Защитить форму от ботов с помощью Google ReCaptcha."
+
+#: inc/templates/customize-form-setup.php:72
+msgid "ReCaptcha secret key"
+msgstr "Секретный ключ ReCaptcha"
+
+#: inc/templates/customize-form-setup.php:68
+msgid "ReCaptcha site key"
+msgstr "Ключ сайта ReCaptcha"
+
+#: inc/templates/customize-form-setup.php:64
+msgid "Google ReCaptcha"
+msgstr "Google ReCaptcha"
+
+#: inc/templates/customize-form-setup.php:64
+msgid "Use"
+msgstr "Используется"
+
+#: inc/classes/class-happyforms-plugin.php:419
+msgid "Insert HappyForm"
+msgstr "Вставить HappyForm"
+
+#: inc/templates/admin-form-modal.php:12
+msgid "Insert"
+msgstr "Вставить"
+
+#: inc/templates/admin-form-modal.php:5
+msgid "Choose a form"
+msgstr "Выберите форму"
+
+#: inc/classes/class-wp-customize-form-manager.php:175
+msgid "Looking for a full documentation? Head over to our <a href=\"%s\" target=\"_blank\">Help Guide</a>."
+msgstr "Ищете полную документацию? Перейдите к нашему <a href=\"%s\" target=\"_blank\">справочному руководству</a>."
+
+#: inc/classes/class-wp-customize-form-manager.php:173
+msgid "All done!"
+msgstr "Все сделано!"
+
+#: inc/classes/class-wp-customize-form-manager.php:172
+msgid "Select a form in the Form dropdown."
+msgstr "Выберите форму в раскрывающемся списке Форм."
+
+#: inc/classes/class-wp-customize-form-manager.php:171
+msgid "Drag the HappyForms widget to your sidebar."
+msgstr "Перетащите виджет HappyForms в область виджетов."
+
+#: inc/classes/class-wp-customize-form-manager.php:170
+msgid "Head over to <b>Appearance</b> &rarr; <b><a href=\"%s\">Widgets</a></b> screen."
+msgstr "Перейдите в раздел <b>Внешний вид</b> &rarr; <b><a href=\"%s\">Виджеты</a></b>."
+
+#: inc/classes/class-wp-customize-form-manager.php:168
+msgid "Use the HappyForms widget"
+msgstr "Используйте HappyForms виджет"
+
+#: inc/classes/class-wp-customize-form-manager.php:167
+msgid "That's it! You'll notice the shortcode was added to your content. Your form will show up there."
+msgstr "И вот оно! Заметьте, что там где в контенте был добавлен шорткод появится ваша форма."
+
+#: inc/classes/class-wp-customize-form-manager.php:167
+msgid "Select a form in the dropdown, then click <b>Insert</b>."
+msgstr "Выберите форму в раскрывающемся списке, затем нажмите <b>Вставить</b>."
+
+#: inc/classes/class-wp-customize-form-manager.php:167
+msgid "In your Edit Post / Edit Page screen, click the <b>Add HappyForms</b> button right above your toolbar. A modal window will appear."
+msgstr "На экране редактирования Записи/Страницы нажмите кнопку <b>Добавить HappyForms</b> прямо в панели инструментов. Появится модальное окно."
+
+#: inc/classes/class-wp-customize-form-manager.php:166
+msgid "Add to your page / post content"
+msgstr "Добавить в содержимое страницы или записи"
+
+#: inc/classes/class-wp-customize-form-manager.php:165
+msgid "Now, there are couple of ways to embed it to your content. Here goes..."
+msgstr "Теперь есть несколько способов вставить форму в ваш контент. Приступим..."
+
+#: inc/classes/class-form-styles.php:896
+msgid "Disable transitions on submit button"
+msgstr "Отключить переходы на кнопке Отправить"
+
+#: inc/classes/class-form-styles.php:851
+msgid "Font Weight"
+msgstr "Насыщенность шрифта"
+
+#: inc/classes/class-form-styles.php:846
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+#: inc/classes/class-form-styles.php:787
+msgid "Rating star color on hover"
+msgstr "Цвет звезды рейтинга при наведении"
+
+#: inc/classes/class-form-styles.php:782
+msgid "Rating star color"
+msgstr "Цвет звезды рейтинга"
+
+#: inc/classes/class-form-styles.php:708
+msgid "Value"
+msgstr "Значение"
+
+#: inc/classes/class-form-styles.php:659
+msgid "Toggle placeholder on part focus"
+msgstr "Переключить заполнитель на фокус раздела"
+
+#: inc/classes/class-form-styles.php:654
+msgid "Part titles"
+msgstr "Название раздела"
+
+#: inc/classes/class-form-styles.php:650
+msgid "Part labels & text"
+msgstr "Ярлык и описание раздела"
+
+#: inc/classes/class-form-styles.php:645
+msgid "Disable transitions on part colors"
+msgstr "Отключить переходы цвета в разделах"
+
+#: inc/classes/class-form-styles.php:640
+msgid "Background on focus"
+msgstr "Фон при наведении"
+
+#: inc/classes/class-form-styles.php:635 inc/classes/class-form-styles.php:728
+#: inc/classes/class-form-styles.php:737 inc/classes/class-form-styles.php:871
+msgid "Background"
+msgstr "Фон"
+
+#: inc/classes/class-form-styles.php:630
+msgid "Border on focus"
+msgstr "Граница при наведении"
+
+#: inc/classes/class-form-styles.php:616
+msgid "Inner padding"
+msgstr "Внутренний отступ"
+
+#: inc/classes/class-form-styles.php:611
+msgid "Outer padding"
+msgstr "Внешний отступ"
+
+#: inc/classes/class-form-styles.php:606 inc/classes/class-form-styles.php:836
+msgid "Border radius"
+msgstr "Радиус скругления границы"
+
+#: inc/classes/class-form-styles.php:601
+msgid "Border location"
+msgstr "Положение границы"
+
+#: inc/classes/class-form-styles.php:596 inc/classes/class-form-styles.php:625
+#: inc/classes/class-form-styles.php:831 inc/classes/class-form-styles.php:881
+msgid "Border"
+msgstr "Граница"
+
+#: inc/classes/class-form-styles.php:592
+msgid "Part borders & spacing"
+msgstr "Границы и пробелы раздела"
+
+#: inc/classes/class-form-styles.php:587
+msgid "Font size"
+msgstr "Размер шрифта"
+
+#: inc/classes/class-form-styles.php:573 inc/classes/class-form-styles.php:577
+msgid "Form title"
+msgstr "Заголовок формы"
+
+#: inc/classes/class-form-styles.php:568
+msgid "Error"
+msgstr "Ошибка"
+
+#: inc/classes/class-form-styles.php:563
+msgid "Success"
+msgstr "Успешно"
+
+#: inc/classes/class-form-styles.php:558
+msgid "Primary"
+msgstr "Основной"
+
+#: inc/classes/class-form-styles.php:554 inc/classes/class-form-styles.php:621
+#: inc/classes/class-form-styles.php:699 inc/classes/class-form-styles.php:867
+msgid "Colors"
+msgstr "Цвета"
+
+#: inc/classes/class-form-styles.php:544
+msgid "Disable submit button until form is valid"
+msgstr "Отключить кнопку отправки до тех пор, пока форма не будет проверена."
+
+#: inc/classes/class-form-styles.php:525
+msgid "General"
+msgstr "Основные"
+
+#: inc/classes/class-form-styles.php:102 inc/classes/class-form-styles.php:185
+#: inc/classes/class-form-styles.php:214 inc/classes/class-form-styles.php:234
+#: inc/classes/class-form-styles.php:301
+msgid "Right"
+msgstr "Справа"
+
+#: inc/classes/class-form-styles.php:101 inc/classes/class-form-styles.php:184
+#: inc/classes/class-form-styles.php:213 inc/classes/class-form-styles.php:233
+#: inc/classes/class-form-styles.php:300
+msgid "Center"
+msgstr "По центру"
+
+#: inc/classes/class-form-styles.php:272
+msgid "Full width"
+msgstr "По всей ширине"
+
+#: inc/classes/class-form-styles.php:150 inc/classes/class-form-styles.php:160
+msgid "Wide"
+msgstr "Широкая"
+
+#: inc/classes/class-form-styles.php:149 inc/classes/class-form-styles.php:159
+#: inc/classes/class-form-styles.php:271
+msgid "Default"
+msgstr "По умолчанию"
+
+#: inc/classes/class-form-styles.php:148 inc/classes/class-form-styles.php:158
+msgid "Narrow"
+msgstr "Узкая"
+
+#: inc/classes/class-form-styles.php:140 inc/classes/class-form-styles.php:263
+msgid "Pill"
+msgstr "Овальная"
+
+#: inc/classes/class-form-styles.php:139 inc/classes/class-form-styles.php:262
+msgid "Round"
+msgstr "Круглая"
+
+#: inc/classes/class-form-styles.php:138 inc/classes/class-form-styles.php:261
+msgid "Square"
+msgstr "Квадратная"
+
+#: inc/classes/class-form-styles.php:130
+msgid "Bottom only"
+msgstr "Только снизу"
+
+#: inc/classes/class-form-styles.php:129
+msgid "All sides"
+msgstr "Все стороны"
+
+#: inc/classes/class-form-styles.php:92 inc/classes/class-form-styles.php:121
+#: inc/classes/class-form-styles.php:169 inc/classes/class-form-styles.php:253
+msgid "Hide"
+msgstr "Скрыть"
+
+#: inc/classes/class-form-styles.php:82 inc/classes/class-form-styles.php:204
+#: inc/classes/class-form-styles.php:291
+msgid "Bold"
+msgstr "Жирный"
+
+#: inc/classes/class-form-styles.php:81 inc/classes/class-form-styles.php:203
+#: inc/classes/class-form-styles.php:290
+msgid "Normal"
+msgstr "Нормальный"
+
+#: inc/classes/class-form-styles.php:694
+msgid "Value font size"
+msgstr "Значение размера шрифта"
+
+#: inc/templates/preview-form-edit.php:10
+msgid "This is a preview of your new HappyForm. Once you’ve finished building, you can add this form to any Page, Post and Widget area. Have questions? <a href=\"%s\" class=\"happyforms-ask-link\" target=\"_blank\">Ask for help in our support forums.</a>"
+msgstr "Это предварительный просмотр вашей новой HappyForm. После того, как вы закончите строительство, вы можете добавить эту форму в любую часть Страницы, Записи  и Виджета. Есть вопросы? <a href=\"%s\" class=\"happyforms-ask-link\" target=\"_blank\">Обратитесь за помощью в наши форумы поддержки.</a>"
+
+#: inc/templates/customize-form-style.php:32
+msgid "You are customizing"
+msgstr "Вы настраиваете"
+
+#: inc/templates/customize-form-style.php:29
+msgid "Back"
+msgstr "Назад"
+
+#: inc/templates/customize-form-build.php:17
+msgid "Click any part from the sidebar to add it to your new form. Then, drag parts into order."
+msgstr "Нажмите любую часть в боковой панели, чтобы добавить в нее новую форму. Затем перетащите детали по порядку."
+
+#: inc/templates/customize-form-build.php:16
+msgid "Ready to get started?"
+msgstr "Готовы начать?"
+
+#: inc/templates/customize-form-build.php:12
+msgid "Expand all"
+msgstr "Раскрыть все"
+
+#: inc/templates/customize-form-build.php:12
+msgid "Collapse all"
+msgstr "Скрыть все"
+
+#: inc/helpers/helper-misc.php:481
+msgid "Zimbabwe"
+msgstr "Зимбабве"
+
+#: inc/helpers/helper-misc.php:480
+msgid "Zambia"
+msgstr "Замбия"
+
+#: inc/helpers/helper-misc.php:479
+msgid "Yugoslavia"
+msgstr "Югославия"
+
+#: inc/helpers/helper-misc.php:478
+msgid "Yemen"
+msgstr "Йемен"
+
+#: inc/helpers/helper-misc.php:477
+msgid "Western Sahara"
+msgstr "Западная Сахара"
+
+#: inc/helpers/helper-misc.php:476
+msgid "Wallis and Futuna Islands"
+msgstr "Уоллис и Футуна"
+
+#: inc/helpers/helper-misc.php:475
+msgid "Virgin Islands (U.S.)"
+msgstr "Виргинские Острова (Территория США)"
+
+#: inc/helpers/helper-misc.php:474
+msgid "Virgin Islands (British)"
+msgstr "Британские Виргинские острова"
+
+#: inc/helpers/helper-misc.php:473
+msgid "Vietnam"
+msgstr "Вьетнам"
+
+#: inc/helpers/helper-misc.php:472
+msgid "Venezuela"
+msgstr "Венесуэла"
+
+#: inc/helpers/helper-misc.php:471
+msgid "Vanuatu"
+msgstr "Вануату"
+
+#: inc/helpers/helper-misc.php:470
+msgid "Uzbekistan"
+msgstr "Узбекистан"
+
+#: inc/helpers/helper-misc.php:469
+msgid "Uruguay"
+msgstr "Уругвай"
+
+#: inc/helpers/helper-misc.php:468
+msgid "United States Minor Outlying Islands"
+msgstr "Внешние малые острова США"
+
+#: inc/helpers/helper-misc.php:467
+msgid "United States"
+msgstr "Соединённые Штаты Америки"
+
+#: inc/helpers/helper-misc.php:466
+msgid "United Kingdom"
+msgstr "Великобритания"
+
+#: inc/helpers/helper-misc.php:465
+msgid "United Arab Emirates"
+msgstr "Объединённые Арабские Эмираты"
+
+#: inc/helpers/helper-misc.php:464
+msgid "Ukraine"
+msgstr "Украина"
+
+#: inc/helpers/helper-misc.php:463
+msgid "Uganda"
+msgstr "Уганда"
+
+#: inc/helpers/helper-misc.php:462
+msgid "Tuvalu"
+msgstr "Тувалу"
+
+#: inc/helpers/helper-misc.php:461
+msgid "Turks and Caicos Islands"
+msgstr "Теркс и Кайкос"
+
+#: inc/helpers/helper-misc.php:460
+msgid "Turkmenistan"
+msgstr "Туркмения"
+
+#: inc/helpers/helper-misc.php:459
+msgid "Turkey"
+msgstr "Турция"
+
+#: inc/helpers/helper-misc.php:458
+msgid "Tunisia"
+msgstr "Тунис"
+
+#: inc/helpers/helper-misc.php:457
+msgid "Trinidad and Tobago"
+msgstr "Тринидад и Тобаго"
+
+#: inc/helpers/helper-misc.php:456
+msgid "Tonga"
+msgstr "Тонга"
+
+#: inc/helpers/helper-misc.php:455
+msgid "Tokelau"
+msgstr "Токелау"
+
+#: inc/helpers/helper-misc.php:454
+msgid "Togo"
+msgstr "Того"
+
+#: inc/helpers/helper-misc.php:453
+msgid "Thailand"
+msgstr "Таиланд"
+
+#: inc/helpers/helper-misc.php:452
+msgid "Tanzania, United Republic of"
+msgstr "Танзания"
+
+#: inc/helpers/helper-misc.php:451
+msgid "Tajikistan"
+msgstr "Таджикистан"
+
+#: inc/helpers/helper-misc.php:450
+msgid "Taiwan, Province of China"
+msgstr "Тайвань, провинция Китая"
+
+#: inc/helpers/helper-misc.php:449
+msgid "Syrian Arab Republic"
+msgstr "Сирия"
+
+#: inc/helpers/helper-misc.php:448
+msgid "Switzerland"
+msgstr "Швейцария"
+
+#: inc/helpers/helper-misc.php:447
+msgid "Sweden"
+msgstr "Швеция"
+
+#: inc/helpers/helper-misc.php:446
+msgid "Swaziland"
+msgstr "Свазиленд"
+
+#: inc/helpers/helper-misc.php:445
+msgid "Svalbard and Jan Mayen Islands"
+msgstr "Шпицберген и Ян-Майен"
+
+#: inc/helpers/helper-misc.php:444
+msgid "Suriname"
+msgstr "Суринам"
+
+#: inc/helpers/helper-misc.php:443
+msgid "Sudan"
+msgstr "Судан"
+
+#: inc/helpers/helper-misc.php:442
+msgid "St. Pierre and Miquelon"
+msgstr "Сен-Пьер и Микелон"
+
+#: inc/helpers/helper-misc.php:441
+msgid "St. Helena"
+msgstr "Остров Святой Елены"
+
+#: inc/helpers/helper-misc.php:440
+msgid "Sri Lanka"
+msgstr "Шри-Ланка"
+
+#: inc/helpers/helper-misc.php:439
+msgid "Spain"
+msgstr "Испания"
+
+#: inc/helpers/helper-misc.php:438
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "Южная Георгия и Южные Сандвичевы Острова"
+
+#: inc/helpers/helper-misc.php:437
+msgid "South Africa"
+msgstr "Южно-Африканская Республика"
+
+#: inc/helpers/helper-misc.php:436
+msgid "Somalia"
+msgstr "Сомали"
+
+#: inc/helpers/helper-misc.php:435
+msgid "Solomon Islands"
+msgstr "Соломоновы Острова"
+
+#: inc/helpers/helper-misc.php:434
+msgid "Slovenia"
+msgstr "Словения"
+
+#: inc/helpers/helper-misc.php:433
+msgid "Slovakia (Slovak Republic)"
+msgstr "Словакия"
+
+#: inc/helpers/helper-misc.php:432
+msgid "Singapore"
+msgstr "Сингапур"
+
+#: inc/helpers/helper-misc.php:431
+msgid "Sierra Leone"
+msgstr "Сьерра-Леоне"
+
+#: inc/helpers/helper-misc.php:430
+msgid "Seychelles"
+msgstr "Сейшельские Острова"
+
+#: inc/helpers/helper-misc.php:429
+msgid "Senegal"
+msgstr "Сенегал"
+
+#: inc/helpers/helper-misc.php:428
+msgid "Saudi Arabia"
+msgstr "Саудовская Аравия"
+
+#: inc/helpers/helper-misc.php:427
+msgid "Sao Tome and Principe"
+msgstr "Сан-Томе и Принсипи"
+
+#: inc/helpers/helper-misc.php:426
+msgid "San Marino"
+msgstr "Сан-Марино"
+
+#: inc/helpers/helper-misc.php:425
+msgid "Samoa"
+msgstr "Самоа"
+
+#: inc/helpers/helper-misc.php:424
+msgid "Saint Vincent and the Grenadines"
+msgstr "Сент-Винсент и Гренадины"
+
+#: inc/helpers/helper-misc.php:423
+msgid "Saint Lucia"
+msgstr "Сент-Люсия"
+
+#: inc/helpers/helper-misc.php:422
+msgid "Saint Kitts and Nevis"
+msgstr "Сент-Китс и Невис"
+
+#: inc/helpers/helper-misc.php:421
+msgid "Rwanda"
+msgstr "Руанда"
+
+#: inc/helpers/helper-misc.php:420
+msgid "Russian Federation"
+msgstr "Российская Федерация"
+
+#: inc/helpers/helper-misc.php:419
+msgid "Romania"
+msgstr "Румыния"
+
+#: inc/helpers/helper-misc.php:418
+msgid "Reunion"
+msgstr "Реюньо́н"
+
+#: inc/helpers/helper-misc.php:417
+msgid "Qatar"
+msgstr "Катар"
+
+#: inc/helpers/helper-misc.php:416
+msgid "Puerto Rico"
+msgstr "Пуэрто-Рико"
+
+#: inc/helpers/helper-misc.php:415
+msgid "Portugal"
+msgstr "Португалия"
+
+#: inc/helpers/helper-misc.php:414
+msgid "Poland"
+msgstr "Польша"
+
+#: inc/helpers/helper-misc.php:413
+msgid "Pitcairn"
+msgstr "Острова Питкэрн"
+
+#: inc/helpers/helper-misc.php:412
+msgid "Philippines"
+msgstr "Филиппины"
+
+#: inc/helpers/helper-misc.php:411
+msgid "Peru"
+msgstr "Перу"
+
+#: inc/helpers/helper-misc.php:410
+msgid "Paraguay"
+msgstr "Парагвай"
+
+#: inc/helpers/helper-misc.php:409
+msgid "Papua New Guinea"
+msgstr "Папуа Новая Гвинея"
+
+#: inc/helpers/helper-misc.php:408
+msgid "Panama"
+msgstr "Панама"
+
+#: inc/helpers/helper-misc.php:407
+msgid "Palau"
+msgstr "Палау"
+
+#: inc/helpers/helper-misc.php:406
+msgid "Pakistan"
+msgstr "Пакистан"
+
+#: inc/helpers/helper-misc.php:405
+msgid "Oman"
+msgstr "Оман"
+
+#: inc/helpers/helper-misc.php:404
+msgid "Norway"
+msgstr "Норвегия"
+
+#: inc/helpers/helper-misc.php:403
+msgid "Northern Mariana Islands"
+msgstr "Северные Марианские Острова"
+
+#: inc/helpers/helper-misc.php:402
+msgid "Norfolk Island"
+msgstr "Остров Норфолк"
+
+#: inc/helpers/helper-misc.php:401
+msgid "Niue"
+msgstr "Ниуэ"
+
+#: inc/helpers/helper-misc.php:400
+msgid "Nigeria"
+msgstr "Нигерия"
+
+#: inc/helpers/helper-misc.php:399
+msgid "Niger"
+msgstr "Нигер"
+
+#: inc/helpers/helper-misc.php:398
+msgid "Nicaragua"
+msgstr "Никарагуа"
+
+#: inc/helpers/helper-misc.php:397
+msgid "New Zealand"
+msgstr "Новая Зеландия"
+
+#: inc/helpers/helper-misc.php:396
+msgid "New Caledonia"
+msgstr "Новая Каледония"
+
+#: inc/helpers/helper-misc.php:395
+msgid "Netherlands Antilles"
+msgstr "Нидерландские Антильские острова"
+
+#: inc/helpers/helper-misc.php:394
+msgid "Netherlands"
+msgstr "Нидерланды"
+
+#: inc/helpers/helper-misc.php:393
+msgid "Nepal"
+msgstr "Непал"
+
+#: inc/helpers/helper-misc.php:392
+msgid "Nauru"
+msgstr "Науру"
+
+#: inc/helpers/helper-misc.php:391
+msgid "Namibia"
+msgstr "Намибия"
+
+#: inc/helpers/helper-misc.php:390
+msgid "Myanmar"
+msgstr "Мьянма"
+
+#: inc/helpers/helper-misc.php:389
+msgid "Mozambique"
+msgstr "Мозамбик"
+
+#: inc/helpers/helper-misc.php:388
+msgid "Morocco"
+msgstr "Марокко"
+
+#: inc/helpers/helper-misc.php:387
+msgid "Montserrat"
+msgstr "Монсеррат"
+
+#: inc/helpers/helper-misc.php:386
+msgid "Mongolia"
+msgstr "Монголия"
+
+#: inc/helpers/helper-misc.php:385
+msgid "Monaco"
+msgstr "Монако"
+
+#: inc/helpers/helper-misc.php:384
+msgid "Moldova, Republic of"
+msgstr "Молдавия"
+
+#: inc/helpers/helper-misc.php:383
+msgid "Micronesia, Federated States of"
+msgstr "Федеративные Штаты Микронезии"
+
+#: inc/helpers/helper-misc.php:382
+msgid "Mexico"
+msgstr "Мексика"
+
+#: inc/helpers/helper-misc.php:381
+msgid "Mayotte"
+msgstr "Майотта"
+
+#: inc/helpers/helper-misc.php:380
+msgid "Mauritius"
+msgstr "Маврикий"
+
+#: inc/helpers/helper-misc.php:379
+msgid "Mauritania"
+msgstr "Мавритания"
+
+#: inc/helpers/helper-misc.php:378
+msgid "Martinique"
+msgstr "Мартиника"
+
+#: inc/helpers/helper-misc.php:377
+msgid "Marshall Islands"
+msgstr "Маршалловы острова"
+
+#: inc/helpers/helper-misc.php:376
+msgid "Malta"
+msgstr "Мальта"
+
+#: inc/helpers/helper-misc.php:375
+msgid "Mali"
+msgstr "Мали"
+
+#: inc/helpers/helper-misc.php:374
+msgid "Maldives"
+msgstr "Мальдивы"
+
+#: inc/helpers/helper-misc.php:373
+msgid "Malaysia"
+msgstr "Малайзия"
+
+#: inc/helpers/helper-misc.php:372
+msgid "Malawi"
+msgstr "Малави"
+
+#: inc/helpers/helper-misc.php:371
+msgid "Madagascar"
+msgstr "Мадагаскар"
+
+#: inc/helpers/helper-misc.php:370
+msgid "Macedonia, The Former Yugoslav Republic of"
+msgstr "Македония, бывшая югославская Республика"
+
+#: inc/helpers/helper-misc.php:369
+msgid "Macau"
+msgstr "Макао"
+
+#: inc/helpers/helper-misc.php:368
+msgid "Luxembourg"
+msgstr "Люксембург"
+
+#: inc/helpers/helper-misc.php:367
+msgid "Lithuania"
+msgstr "Литва"
+
+#: inc/helpers/helper-misc.php:366
+msgid "Liechtenstein"
+msgstr "Лихтенштейн"
+
+#: inc/helpers/helper-misc.php:365
+msgid "Libyan Arab Jamahiriya"
+msgstr "Великая Социалистическая Народная Ливийская Арабская Джамахирия"
+
+#: inc/helpers/helper-misc.php:364
+msgid "Liberia"
+msgstr "Либерия"
+
+#: inc/helpers/helper-misc.php:363
+msgid "Lesotho"
+msgstr "Лесото"
+
+#: inc/helpers/helper-misc.php:362
+msgid "Lebanon"
+msgstr "Ливан"
+
+#: inc/helpers/helper-misc.php:361
+msgid "Latvia"
+msgstr "Латвия"
+
+#: inc/helpers/helper-misc.php:360
+msgid "Lao, People's Democratic Republic"
+msgstr "Лаосская Народно-Демократическая Республика"
+
+#: inc/helpers/helper-misc.php:359
+msgid "Kyrgyzstan"
+msgstr "Киргизия"
+
+#: inc/helpers/helper-misc.php:358
+msgid "Kuwait"
+msgstr "Кувейт"
+
+#: inc/helpers/helper-misc.php:357
+msgid "Korea, Republic of"
+msgstr "Республика Корея"
+
+#: inc/helpers/helper-misc.php:356
+msgid "Korea, Democratic People's Republic of"
+msgstr "Корейская Народно-Демократическая Республика"
+
+#: inc/helpers/helper-misc.php:355
+msgid "Kiribati"
+msgstr "Кирибати"
+
+#: inc/helpers/helper-misc.php:354
+msgid "Kenya"
+msgstr "Кения"
+
+#: inc/helpers/helper-misc.php:353
+msgid "Kazakhstan"
+msgstr "Казахстан"
+
+#: inc/helpers/helper-misc.php:352
+msgid "Jordan"
+msgstr "Иордания"
+
+#: inc/helpers/helper-misc.php:351
+msgid "Japan"
+msgstr "Япония"
+
+#: inc/helpers/helper-misc.php:350
+msgid "Jamaica"
+msgstr "Ямайка"
+
+#: inc/helpers/helper-misc.php:349
+msgid "Italy"
+msgstr "Италия"
+
+#: inc/helpers/helper-misc.php:348
+msgid "Israel"
+msgstr "Израиль"
+
+#: inc/helpers/helper-misc.php:347
+msgid "Ireland"
+msgstr "Ирландия"
+
+#: inc/helpers/helper-misc.php:346
+msgid "Iraq"
+msgstr "Ирак"
+
+#: inc/helpers/helper-misc.php:345
+msgid "Iran (Islamic Republic of)"
+msgstr "Иран (Исламская Республика)"
+
+#: inc/helpers/helper-misc.php:344
+msgid "Indonesia"
+msgstr "Индонезия"
+
+#: inc/helpers/helper-misc.php:343
+msgid "India"
+msgstr "Индия"
+
+#: inc/helpers/helper-misc.php:342
+msgid "Iceland"
+msgstr "Исландия"
+
+#: inc/helpers/helper-misc.php:341
+msgid "Hungary"
+msgstr "Венгрия"
+
+#: inc/helpers/helper-misc.php:340
+msgid "Hong Kong"
+msgstr "Гонконг"
+
+#: inc/helpers/helper-misc.php:339
+msgid "Honduras"
+msgstr "Гондурас"
+
+#: inc/helpers/helper-misc.php:338
+msgid "Holy See (Vatican City State)"
+msgstr "Святейший Престол (Государство Ватикан)"
+
+#: inc/helpers/helper-misc.php:337
+msgid "Heard and Mc Donald Islands"
+msgstr "Острова Херд и Макдональд"
+
+#: inc/helpers/helper-misc.php:336
+msgid "Haiti"
+msgstr "Гаити"
+
+#: inc/helpers/helper-misc.php:335
+msgid "Guyana"
+msgstr "Гайана"
+
+#: inc/helpers/helper-misc.php:334
+msgid "Guinea-Bissau"
+msgstr "Гвинея-Бисау"
+
+#: inc/helpers/helper-misc.php:333
+msgid "Guinea"
+msgstr "Гвинея"
+
+#: inc/helpers/helper-misc.php:332
+msgid "Guatemala"
+msgstr "Гватемала"
+
+#: inc/helpers/helper-misc.php:331
+msgid "Guam"
+msgstr "Гуам"
+
+#: inc/helpers/helper-misc.php:330
+msgid "Guadeloupe"
+msgstr "Гваделупа"
+
+#: inc/helpers/helper-misc.php:329
+msgid "Grenada"
+msgstr "Гренада"
+
+#: inc/helpers/helper-misc.php:328
+msgid "Greenland"
+msgstr "Гренландия"
+
+#: inc/helpers/helper-misc.php:327
+msgid "Greece"
+msgstr "Греция"
+
+#: inc/helpers/helper-misc.php:326
+msgid "Gibraltar"
+msgstr "Гибралтар"
+
+#: inc/helpers/helper-misc.php:325
+msgid "Ghana"
+msgstr "Гана"
+
+#: inc/helpers/helper-misc.php:324
+msgid "Germany"
+msgstr "Германия"
+
+#: inc/helpers/helper-misc.php:323
+msgid "Georgia"
+msgstr "Грузия"
+
+#: inc/helpers/helper-misc.php:322
+msgid "Gambia"
+msgstr "Гамбия"
+
+#: inc/helpers/helper-misc.php:321
+msgid "Gabon"
+msgstr "Габон"
+
+#: inc/helpers/helper-misc.php:320
+msgid "French Southern Territories"
+msgstr "Французские Южные и Антарктические территории"
+
+#: inc/helpers/helper-misc.php:319
+msgid "French Polynesia"
+msgstr "Французская Полинезия"
+
+#: inc/helpers/helper-misc.php:318
+msgid "French Guiana"
+msgstr "Французская Гвиана"
+
+#: inc/helpers/helper-misc.php:317
+msgid "France Metropolitan"
+msgstr "Французкая метрополия"
+
+#: inc/helpers/helper-misc.php:316
+msgid "France"
+msgstr "Франция"
+
+#: inc/helpers/helper-misc.php:315
+msgid "Finland"
+msgstr "Финляндия"
+
+#: inc/helpers/helper-misc.php:314
+msgid "Fiji"
+msgstr "Фиджи"
+
+#: inc/helpers/helper-misc.php:313
+msgid "Faroe Islands"
+msgstr "Фарерские острова"
+
+#: inc/helpers/helper-misc.php:312
+msgid "Falkland Islands (Malvinas)"
+msgstr "Фолклендские (Мальвинские) острова"
+
+#: inc/helpers/helper-misc.php:311
+msgid "Ethiopia"
+msgstr "Эфиопия"
+
+#: inc/helpers/helper-misc.php:310
+msgid "Estonia"
+msgstr "Эстония"
+
+#: inc/helpers/helper-misc.php:309
+msgid "Eritrea"
+msgstr "Эритрея"
+
+#: inc/helpers/helper-misc.php:308
+msgid "Equatorial Guinea"
+msgstr "Экваториальная Гвинея"
+
+#: inc/classes/class-form-controller.php:261
+msgid "Submit Form"
+msgstr "Отправить форму"
+
+#: inc/classes/class-happyforms-plugin.php:282
+msgid "HappyForm"
+msgstr "HappyForm"
+
+#: inc/classes/class-happyforms-plugin.php:286
+msgid "New HappyForm"
+msgstr "Новая HappyForm"
+
+#: inc/classes/class-happyforms-plugin.php:419
+msgid "Add HappyForms"
+msgstr "Добавить HappyForm"
+
+#: inc/classes/class-message-admin.php:834
+msgid "Details"
+msgstr "Подробности"
+
+#: inc/classes/class-message-admin.php:854
+msgid "Submitted on"
+msgstr "Отправлено в"
+
+#: inc/classes/class-message-admin.php:854
+msgid "M j, Y @ H:i"
+msgstr "d.m.Y @ H:i"
+
+#: inc/classes/class-message-admin.php:859
+msgid "Status"
+msgstr "Статус"
+
+#: inc/classes/class-message-admin.php:859
+msgid "Read"
+msgstr "Прочитано"
+
+#: inc/classes/class-message-admin.php:859
+msgid "Unread"
+msgstr "Непрочитано"
+
+#: inc/classes/parts/class-part-address.php:13
+#: inc/classes/parts/class-part-address.php:41
+msgid "Address"
+msgstr "Адрес"
+
+#: inc/classes/parts/class-part-address.php:14
+msgid "For geographical locations. Includes Google Maps intergration."
+msgstr "Для географических мест. Включает интеграцию с Google Картами."
+
+#: inc/templates/parts/customize-address.php:19
+#: inc/templates/parts/customize-checkbox.php:17
+#: inc/templates/parts/customize-checkbox.php:63
+#: inc/templates/parts/customize-date.php:17
+#: inc/templates/parts/customize-date.php:109
+#: inc/templates/parts/customize-email.php:19
+#: inc/templates/parts/customize-email.php:55
+#: inc/templates/parts/customize-multi-line-text.php:19
+#: inc/templates/parts/customize-multi-line-text.php:55
+#: inc/templates/parts/customize-narrative.php:17
+#: inc/templates/parts/customize-narrative.php:41
+#: inc/templates/parts/customize-number.php:19
+#: inc/templates/parts/customize-number.php:84
+#: inc/templates/parts/customize-phone.php:19
+#: inc/templates/parts/customize-phone.php:78
+#: inc/templates/parts/customize-placeholder.php:17
+#: inc/templates/parts/customize-placeholder.php:36
+#: inc/templates/parts/customize-radio.php:17
+#: inc/templates/parts/customize-radio.php:63
+#: inc/templates/parts/customize-rating.php:17
+#: inc/templates/parts/customize-rating.php:83
+#: inc/templates/parts/customize-scale.php:17
+#: inc/templates/parts/customize-scale.php:95
+#: inc/templates/parts/customize-select.php:17
+#: inc/templates/parts/customize-select.php:62
+#: inc/templates/parts/customize-single-line-text.php:19
+#: inc/templates/parts/customize-single-line-text.php:60
+#: inc/templates/parts/customize-table.php:17
+#: inc/templates/parts/customize-table.php:79
+#: inc/templates/parts/customize-title.php:17
+#: inc/templates/parts/customize-title.php:48
+#: inc/templates/parts/customize-website-url.php:19
+#: inc/templates/parts/customize-website-url.php:55
+msgid "Apply to all parts"
+msgstr "Принять для всех разделов"
+
+#: inc/classes/parts/class-part-number.php:9
+msgid "For numeric fields."
+msgstr "Для числовых полей."
+
+#: inc/classes/parts/class-part-legal.php:120
+msgid "Please accept terms before proceeding."
+msgstr "Примите условия, прежде чем продолжить."
+
+#: inc/templates/parts/customize-address.php:54
+msgid "Google API Key"
+msgstr "Ключ Google API"
+
+#: inc/templates/parts/customize-address.php:44
+msgid "Country only"
+msgstr "Только страна"
+
+#: inc/templates/parts/customize-address.php:43
+msgid "Country and city"
+msgstr "Страна и город"
+
+#: inc/classes/class-form-styles.php:91 inc/classes/class-form-styles.php:120
+#: inc/classes/class-form-styles.php:168 inc/classes/class-form-styles.php:252
+#: inc/templates/parts/customize-date.php:32
+#: inc/templates/parts/customize-date.php:53
+msgid "Show"
+msgstr "Показать"
+
+#: inc/classes/parts/class-part-date.php:9
+msgid "For formatted day, month, year and or time fields."
+msgstr "Для форматированных полей дня, месяца, года и времени."
+
+#: inc/templates/parts/frontend-address.php:53
+msgid "City"
+msgstr "Город"
+
+#: inc/templates/parts/customize-date.php:95
+msgid "24h"
+msgstr "24 часа"
+
+#: inc/templates/parts/customize-date.php:94
+msgid "12h"
+msgstr "12 часов"
+
+#: inc/templates/parts/customize-date.php:92
+msgid "Time format"
+msgstr "Формат времени"
+
+#: inc/templates/parts/customize-date.php:36
+msgid "Time"
+msgstr "Время"
+
+#: inc/templates/parts/customize-date.php:35
+msgid "Date &amp; Time"
+msgstr "Дата и время"
+
+#: inc/templates/parts/frontend-date.php:35
+#: inc/templates/parts/frontend-date.php:41
+#: inc/templates/parts/frontend-date.php:62
+msgid "Year"
+msgstr "Год"
+
+#: inc/templates/parts/frontend-date-day.php:17
+#: inc/templates/parts/frontend-date-day.php:23
+#: inc/templates/parts/frontend-date-day.php:40
+msgid "Day"
+msgstr "День"
+
+#: inc/templates/parts/frontend-date-month.php:19
+#: inc/templates/parts/frontend-date-month.php:25
+#: inc/templates/parts/frontend-date-month.php:42
+msgid "Month"
+msgstr "Месяц"
+
+#: inc/classes/parts/class-part-legal.php:9
+#: inc/classes/parts/class-part-legal.php:47
+msgid "Legal"
+msgstr "Правовая информация"
+
+#: inc/templates/parts/frontend-date.php:142
+msgid "PM"
+msgstr "PM"
+
+#: inc/templates/parts/frontend-date.php:141
+msgid "AM"
+msgstr "AM"
+
+#: inc/templates/parts/frontend-date.php:129
+msgid "Period"
+msgstr "Период"
+
+#: inc/templates/parts/customize-legal.php:13
+msgid "Legal text"
+msgstr "Юридический текст"
+
+#: inc/classes/parts/class-part-legal.php:31
+msgid "I accept terms and conditions."
+msgstr "Я принимаю условия."
+
+#: inc/classes/parts/class-part-legal.php:10
+msgid "For requiring fine print before accepting submission."
+msgstr "Для правовой информации перед отправкой формы."
+
+#: inc/classes/parts/class-part-phone.php:9
+msgid "For phone numbers. Includes country specific formatting."
+msgstr "Для телефонных номеров. Включает форматирование по странам."
+
+#: inc/classes/parts/class-part-scale.php:9
+msgid "For collecting opinions using a horizontal slider."
+msgstr "Для сбора данных с помощью ползунка."
+
+#: inc/classes/parts/class-part-scale.php:8
+#: inc/classes/parts/class-part-scale.php:30
+msgid "Scale"
+msgstr "Ползунок"
+
+#: inc/classes/parts/class-part-title.php:96
+msgid "Mr."
+msgstr "Г-н"
+
+#: inc/classes/parts/class-part-title.php:9
+msgid "For displaying personal honorifics."
+msgstr "Для вежливого обращения."
+
+#: inc/templates/parts/customize-date.php:40
+#: inc/templates/parts/customize-scale.php:63
+msgid "Default value"
+msgstr "Значение по умолчанию"
+
+#: inc/classes/parts/class-part-title.php:100
+msgid "Prof."
+msgstr "Профессор"
+
+#: inc/classes/parts/class-part-title.php:99
+msgid "Miss"
+msgstr "Г-жа"
+
+#: inc/classes/parts/class-part-title.php:98
+msgid "Ms."
+msgstr "Г-жа"
+
+#: inc/classes/parts/class-part-title.php:97
+msgid "Mrs."
+msgstr "Г-н"
+
+#: inc/helpers/helper-misc.php:245
+msgid "Algeria"
+msgstr "Алжир"
+
+#: inc/helpers/helper-misc.php:244
+msgid "Albania"
+msgstr "Албания"
+
+#: inc/helpers/helper-misc.php:243
+msgid "Afghanistan"
+msgstr "Афганистан"
+
+#: inc/classes/parts/class-part-title.php:164
+msgid "Values are not valid."
+msgstr "Недопустимые значения."
+
+#: inc/classes/parts/class-part-title.php:101
+msgid "Dr."
+msgstr "Доктор"
+
+#: inc/helpers/helper-misc.php:250
+msgid "Antarctica"
+msgstr "Антарктида"
+
+#: inc/helpers/helper-misc.php:249
+msgid "Anguilla"
+msgstr "Ангилья"
+
+#: inc/helpers/helper-misc.php:248
+msgid "Angola"
+msgstr "Ангола"
+
+#: inc/helpers/helper-misc.php:247
+msgid "Andorra"
+msgstr "Андорра"
+
+#: inc/helpers/helper-misc.php:246
+msgid "American Samoa"
+msgstr "Американское Самоа"
+
+#: inc/templates/parts/customize-address.php:39
+msgid "Mode"
+msgstr "Режим"
+
+#: inc/templates/parts/customize-address.php:42
+msgid "Full with autocomplete"
+msgstr "Полный с автозаполнением"
+
+#: inc/helpers/helper-misc.php:251
+msgid "Antigua and Barbuda"
+msgstr "Антигуа и Барбуда"
+
+#: inc/helpers/helper-misc.php:252
+msgid "Argentina"
+msgstr "Аргентина"
+
+#: inc/helpers/helper-misc.php:253
+msgid "Armenia"
+msgstr "Армения"
+
+#: inc/helpers/helper-misc.php:254
+msgid "Aruba"
+msgstr "Аруба"
+
+#: inc/helpers/helper-misc.php:255
+msgid "Australia"
+msgstr "Австралия"
+
+#: inc/helpers/helper-misc.php:256
+msgid "Austria"
+msgstr "Австрия"
+
+#: inc/helpers/helper-misc.php:257
+msgid "Azerbaijan"
+msgstr "Азербайджан"
+
+#: inc/helpers/helper-misc.php:258
+msgid "Bahamas"
+msgstr "Багамские Острова"
+
+#: inc/helpers/helper-misc.php:259
+msgid "Bahrain"
+msgstr "Бахрейн"
+
+#: inc/helpers/helper-misc.php:260
+msgid "Bangladesh"
+msgstr "Бангладеш"
+
+#: inc/helpers/helper-misc.php:261
+msgid "Barbados"
+msgstr "Барбадос"
+
+#: inc/helpers/helper-misc.php:262
+msgid "Belarus"
+msgstr "Беларусь"
+
+#: inc/helpers/helper-misc.php:263
+msgid "Belgium"
+msgstr "Бельгия"
+
+#: inc/helpers/helper-misc.php:266
+msgid "Bermuda"
+msgstr "Бермудские Острова"
+
+#: inc/helpers/helper-misc.php:265
+msgid "Benin"
+msgstr "Бенин"
+
+#: inc/helpers/helper-misc.php:264
+msgid "Belize"
+msgstr "Белиз"
+
+#: inc/helpers/helper-misc.php:268
+msgid "Bolivia"
+msgstr "Боливия"
+
+#: inc/helpers/helper-misc.php:267
+msgid "Bhutan"
+msgstr "Бутан"
+
+#: inc/helpers/helper-misc.php:271
+msgid "Bouvet Island"
+msgstr "Остров Буве"
+
+#: inc/helpers/helper-misc.php:270
+msgid "Botswana"
+msgstr "Ботсвана"
+
+#: inc/helpers/helper-misc.php:269
+msgid "Bosnia and Herzegowina"
+msgstr "Босния и Герцеговина"
+
+#: inc/helpers/helper-misc.php:272
+msgid "Brazil"
+msgstr "Бразилия"
+
+#: inc/helpers/helper-misc.php:273
+msgid "British Indian Ocean Territory"
+msgstr "Британская Территория в Индийском Океане"
+
+#: inc/helpers/helper-misc.php:278
+msgid "Cambodia"
+msgstr "Камбоджа"
+
+#: inc/helpers/helper-misc.php:277
+msgid "Burundi"
+msgstr "Бурунди"
+
+#: inc/helpers/helper-misc.php:276
+msgid "Burkina Faso"
+msgstr "Буркина-Фасо"
+
+#: inc/helpers/helper-misc.php:275
+msgid "Bulgaria"
+msgstr "Болгария"
+
+#: inc/helpers/helper-misc.php:274
+msgid "Brunei Darussalam"
+msgstr "Бруней"
+
+#: inc/helpers/helper-misc.php:279
+msgid "Cameroon"
+msgstr "Камерун"
+
+#: inc/helpers/helper-misc.php:280
+msgid "Canada"
+msgstr "Канада"
+
+#: inc/helpers/helper-misc.php:281
+msgid "Cape Verde"
+msgstr "Кабо-Верде"
+
+#: inc/helpers/helper-misc.php:282
+msgid "Cayman Islands"
+msgstr "Острова Кайман"
+
+#: inc/helpers/helper-misc.php:283
+msgid "Central African Republic"
+msgstr "Центральноафриканская Республика"
+
+#: inc/helpers/helper-misc.php:284
+msgid "Chad"
+msgstr "Чад"
+
+#: inc/helpers/helper-misc.php:286
+msgid "China"
+msgstr "Китай"
+
+#: inc/helpers/helper-misc.php:285
+msgid "Chile"
+msgstr "Чили"
+
+#: inc/helpers/helper-misc.php:288
+msgid "Cocos (Keeling) Islands"
+msgstr "Кокосовые острова"
+
+#: inc/helpers/helper-misc.php:287
+msgid "Christmas Island"
+msgstr "Остров Рождества"
+
+#: inc/helpers/helper-misc.php:289
+msgid "Colombia"
+msgstr "Колумбия"
+
+#: inc/helpers/helper-misc.php:290
+msgid "Comoros"
+msgstr "Коморы"
+
+#: inc/helpers/helper-misc.php:291
+msgid "Congo"
+msgstr "Конго"
+
+#: inc/helpers/helper-misc.php:292
+msgid "Congo, the Democratic Republic of the"
+msgstr "Демократическая Республика Конго"
+
+#: inc/helpers/helper-misc.php:293
+msgid "Cook Islands"
+msgstr "Острова Кука"
+
+#: inc/helpers/helper-misc.php:294
+msgid "Costa Rica"
+msgstr "Коста-Рика"
+
+#: inc/helpers/helper-misc.php:296
+msgid "Croatia (Hrvatska)"
+msgstr "Хорватия"
+
+#: inc/helpers/helper-misc.php:297
+msgid "Cuba"
+msgstr "Куба"
+
+#: inc/helpers/helper-misc.php:298
+msgid "Cyprus"
+msgstr "Республика Кипр"
+
+#: inc/helpers/helper-misc.php:302
+msgid "Dominica"
+msgstr "Доминика"
+
+#: inc/helpers/helper-misc.php:301
+msgid "Djibouti"
+msgstr "Джибути"
+
+#: inc/helpers/helper-misc.php:300
+msgid "Denmark"
+msgstr "Дания"
+
+#: inc/helpers/helper-misc.php:299
+msgid "Czech Republic"
+msgstr "Чехия"
+
+#: inc/helpers/helper-misc.php:303
+msgid "Dominican Republic"
+msgstr "Доминиканская Республика"
+
+#: inc/helpers/helper-misc.php:304
+msgid "East Timor"
+msgstr "Восточный Тимор"
+
+#: inc/helpers/helper-misc.php:305
+msgid "Ecuador"
+msgstr "Эквадор"
+
+#: inc/helpers/helper-misc.php:306
+msgid "Egypt"
+msgstr "Египет"
+
+#: inc/helpers/helper-misc.php:307
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#. Author URI of the plugin/theme
+msgid "https://thethemefoundry.com"
+msgstr "https://thethemefoundry.com"
+
+#. Author of the plugin/theme
+msgid "The Theme Foundry"
+msgstr "The Theme Foundry"
+
+#. Description of the plugin/theme
+msgid "Your friendly drag and drop contact form builder for creating contact forms, lead generation forms, feedback forms, quote forms, survey forms and more!"
+msgstr "Дружественный конструктор форм для создания контактных форм, форм лидогенерации, форм обратной связи, форм цитат, форм опроса и многое другое!"
+
+#. Plugin URI of the plugin/theme
+msgid "https://happyforms.me"
+msgstr "https://happyforms.me"
+
+#: inc/templates/preview-form-pencil.php:3
+msgid "Click to edit this part."
+msgstr "Нажмите, чтобы отредактировать эту часть."
+
+#: inc/templates/customize-header-actions.php:5
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr "Внесенные изменения будут потеряны, если вы уйдете с этой страницы."
+
+#: inc/templates/customize-form-steps.php:23
+#: inc/templates/customize-header-actions.php:3
+msgid "Save Form"
+msgstr "Сохранить форму"
+
+#: inc/templates/customize-form-steps.php:30
+msgid "of"
+msgstr "из"
+
+#: inc/templates/customize-form-steps.php:30
+#: inc/templates/parts/customize-scale.php:77
+msgid "Step"
+msgstr "Шаг"
+
+#: inc/templates/customize-form-setup.php:147
+msgid "Keep recipients responses stored in your WordPress database."
+msgstr "Сохраняйте ответы получателей, в базе данных WordPress."
+
+#: inc/templates/customize-form-setup.php:141
+msgid "Protect your form against bots by using HoneyPot security."
+msgstr "Защитите форму от ботов, используя HoneyPot."
+
+#: inc/templates/customize-form-setup.php:138
+msgid "By default, recipients will be redirected to the post or page displaying this form. To set a custom redirect webpage, add a link here."
+msgstr "По умолчанию получатели будут перенаправлены на запись или страницу, отображающую эту форму. Чтобы настроить перенаправление на произвольную веб-страницу, добавьте ссылку здесь."
+
+#: inc/templates/customize-form-setup.php:135
+msgid "If your form contains an email field, recipients will receive an email with this subject."
+msgstr "Если в вашей форме есть поле для ввода email, то отправитель получит письмо с этой темой."
+
+#: inc/templates/customize-form-setup.php:129
+msgid "If your form contains an email field, recipients will receive an email with this content."
+msgstr "Если в вашей форме есть поле для ввода email, то отправитель получит письмо с этим содержимым."
+
+#: inc/templates/customize-form-setup.php:120
+msgid "This is the message your users will see after succesfully submitting your form."
+msgstr "Пользователь увидит это сообщение после успешной отправки формы."
+
+#: inc/templates/customize-form-setup.php:123
+msgid "Add your email address here to receive a confirmation email for each form response. You can add multiple email addresses by separating each address with a comma."
+msgstr "Добавьте свой адрес электронной почты, чтобы получить письмо с подтверждением для каждого ответа из формы. Вы можете добавить несколько адресов, разделив каждый адрес запятой."
+
+#: inc/templates/customize-form-setup.php:80
+msgid "Save messages for this form"
+msgstr "Сохранить сообщения для этой формы"
+
+#: inc/templates/customize-form-setup.php:58
+msgid "Spam prevention"
+msgstr "Защита от спама"
+
+#: inc/templates/customize-form-setup.php:48
+msgid "On complete redirect link"
+msgstr "Ссылка для перенаправления после отправки"
+
+#: inc/templates/customize-form-parts-drawer.php:5
+msgid "Search parts"
+msgstr "Поиск разделов"
+
+#: inc/templates/customize-header-actions.php:6
+msgid "Close"
+msgstr "Закрыть"
+
+#: inc/templates/customize-form-item.php:34
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: inc/templates/customize-form-item.php:24
+#: inc/templates/customize-form-steps.php:18
+msgid "Style"
+msgstr "Стиль"
+
+#: inc/templates/customize-form-item.php:21
+#: inc/templates/customize-form-steps.php:8
+#: inc/templates/customize-form-steps.php:15
+msgid "Setup"
+msgstr "Настройка"
+
+#: inc/templates/customize-form-item.php:18
+msgid "Add Part"
+msgstr "Добавить раздел"
+
+#: inc/templates/customize-form-build.php:10
+msgid "Form Builder"
+msgstr "Конструктор формы"
+
+#: inc/templates/customize-form-build.php:4
+msgid "Form name"
+msgstr "Имя формы"
+
+#: inc/helpers/helper-misc.php:189
+msgid "to help us spread the word."
+msgstr "чтобы помочь нам распространить слово."
+
+#: inc/helpers/helper-misc.php:189
+msgid "on"
+msgstr "на"
+
+#: inc/helpers/helper-misc.php:189
+msgid "How are we doing? Please rate"
+msgstr "Вам понравился плагин? Пожалуйста, оцените"
+
+#: inc/helpers/helper-activation.php:131
+msgid "How can I access my premium upgrade credentials?"
+msgstr "Как я могу получить доступ к моим учетным данным для премиум обновления?"
+
+#: inc/helpers/helper-activation.php:124
+msgid "How do I embed a HappyForm in my sidebar?"
+msgstr "Как вставить HappyForm в боковую панель?"
+
+#: inc/helpers/helper-activation.php:117
+msgid "It would be great if I could use Google ReCaptcha instead of Honeypot."
+msgstr "Было бы здорово, если бы я мог использовать Google ReCaptcha вместо Honeypot."
+
+#: inc/helpers/helper-activation.php:85
+msgid "Your message"
+msgstr "Ваше сообщение"
+
+#: inc/helpers/helper-activation.php:80
+msgid "Age"
+msgstr "Возраст"
+
+#: inc/helpers/helper-activation.php:74
+msgid "Asking about my account"
+msgstr "Вопрос о моей учетной записи"
+
+#: inc/helpers/helper-activation.php:71
+msgid "Want to suggest a feature"
+msgstr "Хочу предложить функцию"
+
+#: inc/helpers/helper-activation.php:68
+msgid "Need technical help"
+msgstr "Нужна техническая помощь"
+
+#: inc/helpers/helper-activation.php:65
+msgid "What's your reason for contacting us?"
+msgstr "По какой причине вы хотите связаться с нами?"
+
+#: inc/helpers/helper-activation.php:60
+msgid "Last name"
+msgstr "Фамилия"
+
+#: inc/helpers/helper-activation.php:55
+msgid "First name"
+msgstr "Имя"
+
+#: inc/helpers/helper-activation.php:44
+msgid "Sample Contact Form"
+msgstr "Образец контактной формы"
+
+#: inc/classes/parts/class-part-website-url.php:130
+msgid "Not a valid URL."
+msgstr "Недействительный URL."
+
+#: inc/classes/parts/class-part-website-url.php:9
+msgid "For formatted website URLs."
+msgstr "Для ссылок на сайты"
+
+#: inc/classes/parts/class-part-website-url.php:8
+#: inc/classes/parts/class-part-website-url.php:28
+msgid "Website Link"
+msgstr "Ссылка на сайт"
+
+#: inc/classes/parts/class-part-single-line-text.php:9
+msgid "For single line text fields."
+msgstr "Для однострочных текстовых полей."
+
+#: inc/classes/parts/class-part-single-line-text.php:8
+msgid "Short Text"
+msgstr "Короткий текст"
+
+#: inc/classes/parts/class-part-select.php:9
+msgid "For selecting one option from a long list. Default value adjustable."
+msgstr "Для выбора одного значения из выпадающего списка. Значение по умолчанию настраивается."
+
+#: inc/classes/parts/class-part-select.php:8
+#: inc/classes/parts/class-part-select.php:29
+msgid "Dropdown"
+msgstr "Выпадающий список"
+
+#: inc/classes/parts/class-part-rating.php:158
+msgid "Value should be between 1 and 5."
+msgstr "Значение должно быть между 1 и 5."
+
+#: inc/templates/parts/customize-rating.php:46
+#: inc/templates/parts/frontend-rating-scale.php:12
+msgid "Stars"
+msgstr "Звезды"
+
+#: inc/classes/class-form-styles.php:777
+#: inc/classes/parts/class-part-rating.php:9
+#: inc/classes/parts/class-part-rating.php:31
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: inc/classes/parts/class-part-table.php:240
+msgid "Radio values are not valid."
+msgstr "Неверное значение переключателя."
+
+#: inc/templates/parts/customize-radio.php:84
+#: inc/templates/parts/customize-select.php:79
+msgid "Make this option default"
+msgstr "Установите этот параметр по умолчанию"
+
+#: inc/classes/parts/class-part-radio.php:10
+msgid "For radio buttons allowing one selection."
+msgstr "Для переключателей, позволяющих один выбор."
+
+#: inc/classes/parts/class-part-radio.php:9
+msgid "Single Choice"
+msgstr "Одиночный выбор"
+
+#: inc/classes/parts/class-part-placeholder.php:9
+msgid "For adding helper text, horizontal rules and extra space."
+msgstr "Для добавления вспомогательного текста, горизонтальных разделителей и дополнительных пробелов."
+
+#: inc/classes/parts/class-part-number.php:189
+#: inc/classes/parts/class-part-phone.php:398
+msgid "Number and confirmation number are not matching."
+msgstr "Номер и номер подтверждения не соответствуют."
+
+#: inc/templates/customize-form-setup.php:96
+#: inc/templates/parts/customize-number.php:69
+msgid "Prefix"
+msgstr "Префикс"
+
+#: inc/templates/parts/customize-number.php:65
+msgid "Decimal mark"
+msgstr "Десятичный разделитель"
+
+#: inc/templates/parts/customize-number.php:61
+msgid "Thousands delimiter"
+msgstr "Разделитель тысяч"
+
+#: inc/classes/parts/class-part-phone.php:8
+#: inc/classes/parts/class-part-phone.php:30
+msgid "Phone"
+msgstr "Телефон"
+
+#: inc/templates/parts/customize-number.php:56
+msgid "Mask this input"
+msgstr "Добавить маску ввода к этому полю"
+
+#: inc/classes/parts/class-part-number.php:86
+msgid "Confirm Number"
+msgstr "Подтвердить число"
+
+#: inc/classes/parts/class-part-number.php:8
+#: inc/classes/parts/class-part-number.php:30
+msgid "Number"
+msgstr "Число"
+
+#: inc/classes/class-form-styles.php:742 inc/classes/class-form-styles.php:886
+#: inc/classes/parts/class-part-multi-line-text.php:29
+#: inc/classes/parts/class-part-single-line-text.php:29
+#: inc/templates/parts/customize-placeholder.php:21
+msgid "Text"
+msgstr "Текст"
+
+#: inc/classes/parts/class-part-multi-line-text.php:9
+msgid "For paragraph text fields."
+msgstr "Для многострочного текста с абзацами."
+
+#: inc/classes/parts/class-part-multi-line-text.php:8
+msgid "Long Text"
+msgstr "Многострочный текст"
+
+#: inc/classes/parts/class-part-email.php:153
+msgid "Email and confirmation email are not matching."
+msgstr "Email-адреса не совпадают."
+
+#: inc/classes/parts/class-part-email.php:149
+msgid "Not a valid e-mail address."
+msgstr "Некорректный e-mail адрес."
+
+#: inc/templates/parts/customize-email.php:68
+#: inc/templates/parts/customize-number.php:97
+#: inc/templates/parts/customize-phone.php:91
+msgid "Confirmation field title"
+msgstr "Заголовок поля подтверждения"
+
+#: inc/templates/parts/customize-email.php:64
+#: inc/templates/parts/customize-number.php:93
+#: inc/templates/parts/customize-phone.php:87
+msgid "Require confirmation of the value"
+msgstr "Требуется подтверждение ввода"
+
+#: inc/classes/parts/class-part-email.php:49
+msgid "Confirm Email"
+msgstr "Подтвердите адрес электронной почты"
+
+#: inc/classes/parts/class-part-email.php:9
+msgid "For formatted email addresses. The '@' symbol is required."
+msgstr "Для форматированных адресов электронной почты. Требуется символ '@'"
+
+#: inc/classes/parts/class-part-email.php:8
+#: inc/classes/parts/class-part-email.php:29
+msgid "Email"
+msgstr "Email"
+
+#: inc/classes/parts/class-part-date.php:273
+msgid "Not a valid date."
+msgstr "Некорректная дата."
+
+#: inc/templates/parts/customize-narrative.php:21
+msgid "Format"
+msgstr "Формат"
+
+#: inc/classes/class-form-styles.php:713
+#: inc/classes/parts/class-part-placeholder.php:8
+#: inc/templates/parts/customize-address.php:35
+#: inc/templates/parts/customize-email.php:35
+#: inc/templates/parts/customize-multi-line-text.php:35
+#: inc/templates/parts/customize-number.php:35
+#: inc/templates/parts/customize-phone.php:35
+#: inc/templates/parts/customize-single-line-text.php:35
+#: inc/templates/parts/customize-website-url.php:35
+msgid "Placeholder"
+msgstr "Заполнитель"
+
+#: inc/classes/parts/class-part-date.php:30
+#: inc/templates/parts/customize-date.php:34
+msgid "Date"
+msgstr "Дата"
+
+#: inc/templates/parts/frontend-select.php:53
+#: inc/templates/parts/frontend-title.php:46
+msgid "Select"
+msgstr "Выберите"
+
+#: inc/templates/parts/frontend-address.php:34
+#: inc/templates/parts/frontend-address.php:46
+msgid "Country"
+msgstr "Страна"
+
+#: inc/classes/parts/class-part-checkbox.php:174
+#: inc/classes/parts/class-part-table.php:233
+msgid "Checkbox values are not valid."
+msgstr "Некорректное значение флажка."
+
+#: inc/classes/parts/class-part-address.php:191
+#: inc/classes/parts/class-part-checkbox.php:166
+#: inc/classes/parts/class-part-date.php:197
+#: inc/classes/parts/class-part-email.php:141
+#: inc/classes/parts/class-part-email.php:145
+#: inc/classes/parts/class-part-legal.php:115
+#: inc/classes/parts/class-part-multi-line-text.php:142
+#: inc/classes/parts/class-part-narrative.php:125
+#: inc/classes/parts/class-part-narrative.php:130
+#: inc/classes/parts/class-part-number.php:169
+#: inc/classes/parts/class-part-phone.php:390
+#: inc/classes/parts/class-part-phone.php:394
+#: inc/classes/parts/class-part-radio.php:167
+#: inc/classes/parts/class-part-rating.php:152
+#: inc/classes/parts/class-part-scale.php:163
+#: inc/classes/parts/class-part-select.php:164
+#: inc/classes/parts/class-part-single-line-text.php:129
+#: inc/classes/parts/class-part-table.php:213
+#: inc/classes/parts/class-part-table.php:220
+#: inc/classes/parts/class-part-title.php:156
+#: inc/classes/parts/class-part-website-url.php:124
+msgid "This field is required."
+msgstr "Это обязательное поле."
+
+#: inc/templates/customize-form-item.php:33
+#: inc/templates/customize-form-part-footer.php:3
+#: inc/templates/parts/customize-checkbox.php:83
+#: inc/templates/parts/customize-radio.php:87
+#: inc/templates/parts/customize-select.php:82
+#: inc/templates/parts/customize-table.php:99
+#: inc/templates/parts/customize-table.php:110
+msgid "Delete"
+msgstr "Удалить"
+
+#: inc/templates/parts/customize-checkbox.php:80
+#: inc/templates/parts/customize-table.php:96
+msgid "Checked by default"
+msgstr "Отмечен по умолчанию"
+
+#: inc/templates/parts/customize-checkbox.php:76
+#: inc/templates/parts/customize-radio.php:76
+#: inc/templates/parts/customize-select.php:75
+#: inc/templates/parts/customize-table.php:92
+#: inc/templates/parts/customize-table.php:106
+msgid "Label"
+msgstr "Ярлык"
+
+#: inc/templates/parts/customize-checkbox.php:42
+#: inc/templates/parts/customize-radio.php:42
+#: inc/templates/parts/customize-select.php:43
+msgid "Add option"
+msgstr "Добавить элемент"
+
+#: inc/templates/parts/customize-checkbox.php:39
+#: inc/templates/parts/customize-radio.php:39
+#: inc/templates/parts/customize-select.php:39
+msgid "No options added yet. Add one by clicking the <i>Add option</i> link below."
+msgstr "Настройки пока не добавлены. Добавьте одну, нажав ссылку <i>Добавить</i> ниже."
+
+#: inc/templates/parts/customize-address.php:86
+#: inc/templates/parts/customize-checkbox.php:67
+#: inc/templates/parts/customize-date.php:113
+#: inc/templates/parts/customize-email.php:59
+#: inc/templates/parts/customize-legal.php:18
+#: inc/templates/parts/customize-multi-line-text.php:59
+#: inc/templates/parts/customize-narrative.php:45
+#: inc/templates/parts/customize-number.php:88
+#: inc/templates/parts/customize-phone.php:82
+#: inc/templates/parts/customize-placeholder.php:40
+#: inc/templates/parts/customize-radio.php:67
+#: inc/templates/parts/customize-rating.php:87
+#: inc/templates/parts/customize-scale.php:99
+#: inc/templates/parts/customize-select.php:66
+#: inc/templates/parts/customize-single-line-text.php:64
+#: inc/templates/parts/customize-table.php:83
+#: inc/templates/parts/customize-title.php:52
+#: inc/templates/parts/customize-website-url.php:59
+msgid "Custom CSS class"
+msgstr "Пользовательский CSS класс "
+
+#: inc/templates/parts/customize-address.php:80
+#: inc/templates/parts/customize-checkbox.php:56
+#: inc/templates/parts/customize-date.php:102
+#: inc/templates/parts/customize-email.php:48
+#: inc/templates/parts/customize-legal.php:7
+#: inc/templates/parts/customize-multi-line-text.php:48
+#: inc/templates/parts/customize-narrative.php:34
+#: inc/templates/parts/customize-number.php:77
+#: inc/templates/parts/customize-phone.php:71
+#: inc/templates/parts/customize-placeholder.php:29
+#: inc/templates/parts/customize-radio.php:56
+#: inc/templates/parts/customize-rating.php:76
+#: inc/templates/parts/customize-scale.php:88
+#: inc/templates/parts/customize-select.php:55
+#: inc/templates/parts/customize-single-line-text.php:53
+#: inc/templates/parts/customize-table.php:72
+#: inc/templates/parts/customize-title.php:41
+#: inc/templates/parts/customize-website-url.php:48
+msgid "Half"
+msgstr "Половина"
+
+#: inc/templates/parts/customize-address.php:41
+#: inc/templates/parts/customize-address.php:79
+#: inc/templates/parts/customize-checkbox.php:55
+#: inc/templates/parts/customize-date.php:101
+#: inc/templates/parts/customize-email.php:47
+#: inc/templates/parts/customize-legal.php:6
+#: inc/templates/parts/customize-multi-line-text.php:47
+#: inc/templates/parts/customize-narrative.php:33
+#: inc/templates/parts/customize-number.php:76
+#: inc/templates/parts/customize-phone.php:70
+#: inc/templates/parts/customize-placeholder.php:28
+#: inc/templates/parts/customize-radio.php:55
+#: inc/templates/parts/customize-rating.php:75
+#: inc/templates/parts/customize-scale.php:87
+#: inc/templates/parts/customize-select.php:54
+#: inc/templates/parts/customize-single-line-text.php:52
+#: inc/templates/parts/customize-table.php:71
+#: inc/templates/parts/customize-title.php:40
+#: inc/templates/parts/customize-website-url.php:47
+msgid "Full"
+msgstr "Полный"
+
+#: inc/templates/parts/customize-checkbox.php:49
+#: inc/templates/parts/customize-radio.php:49
+msgid "Vertical"
+msgstr "Вертикальный"
+
+#: inc/templates/parts/customize-checkbox.php:48
+#: inc/templates/parts/customize-radio.php:48
+msgid "Horizontal"
+msgstr "Горизонтальный"
+
+#: inc/templates/parts/customize-checkbox.php:46
+#: inc/templates/parts/customize-radio.php:46
+msgid "Display options"
+msgstr "Показать настройки"
+
+#: inc/templates/parts/customize-address.php:23
+#: inc/templates/parts/customize-checkbox.php:21
+#: inc/templates/parts/customize-date.php:21
+#: inc/templates/parts/customize-email.php:23
+#: inc/templates/parts/customize-multi-line-text.php:23
+#: inc/templates/parts/customize-number.php:23
+#: inc/templates/parts/customize-phone.php:23
+#: inc/templates/parts/customize-radio.php:21
+#: inc/templates/parts/customize-radio.php:80
+#: inc/templates/parts/customize-rating.php:21
+#: inc/templates/parts/customize-scale.php:21
+#: inc/templates/parts/customize-select.php:21
+#: inc/templates/parts/customize-single-line-text.php:23
+#: inc/templates/parts/customize-table.php:21
+#: inc/templates/parts/customize-title.php:21
+#: inc/templates/parts/customize-website-url.php:23
+msgid "Description"
+msgstr "Описание"
+
+#: inc/templates/parts/customize-address.php:12
+#: inc/templates/parts/customize-checkbox.php:12
+#: inc/templates/parts/customize-date.php:12
+#: inc/templates/parts/customize-email.php:12
+#: inc/templates/parts/customize-multi-line-text.php:12
+#: inc/templates/parts/customize-narrative.php:12
+#: inc/templates/parts/customize-number.php:12
+#: inc/templates/parts/customize-phone.php:12
+#: inc/templates/parts/customize-placeholder.php:12
+#: inc/templates/parts/customize-radio.php:12
+#: inc/templates/parts/customize-rating.php:12
+#: inc/templates/parts/customize-scale.php:12
+#: inc/templates/parts/customize-select.php:12
+#: inc/templates/parts/customize-single-line-text.php:12
+#: inc/templates/parts/customize-table.php:12
+#: inc/templates/parts/customize-title.php:12
+#: inc/templates/parts/customize-website-url.php:12
+msgid "Below"
+msgstr "Снизу"
+
+#: inc/classes/class-form-styles.php:100 inc/classes/class-form-styles.php:183
+#: inc/classes/class-form-styles.php:212 inc/classes/class-form-styles.php:232
+#: inc/classes/class-form-styles.php:299
+#: inc/templates/parts/customize-address.php:11
+#: inc/templates/parts/customize-checkbox.php:11
+#: inc/templates/parts/customize-date.php:11
+#: inc/templates/parts/customize-email.php:11
+#: inc/templates/parts/customize-multi-line-text.php:11
+#: inc/templates/parts/customize-narrative.php:11
+#: inc/templates/parts/customize-number.php:11
+#: inc/templates/parts/customize-phone.php:11
+#: inc/templates/parts/customize-placeholder.php:11
+#: inc/templates/parts/customize-radio.php:11
+#: inc/templates/parts/customize-rating.php:11
+#: inc/templates/parts/customize-scale.php:11
+#: inc/templates/parts/customize-select.php:11
+#: inc/templates/parts/customize-single-line-text.php:11
+#: inc/templates/parts/customize-table.php:11
+#: inc/templates/parts/customize-title.php:11
+#: inc/templates/parts/customize-website-url.php:11
+msgid "Left"
+msgstr "Слева"
+
+#: inc/templates/parts/customize-address.php:10
+#: inc/templates/parts/customize-checkbox.php:10
+#: inc/templates/parts/customize-date.php:10
+#: inc/templates/parts/customize-email.php:10
+#: inc/templates/parts/customize-multi-line-text.php:10
+#: inc/templates/parts/customize-narrative.php:10
+#: inc/templates/parts/customize-number.php:10
+#: inc/templates/parts/customize-phone.php:10
+#: inc/templates/parts/customize-placeholder.php:10
+#: inc/templates/parts/customize-radio.php:10
+#: inc/templates/parts/customize-rating.php:10
+#: inc/templates/parts/customize-scale.php:10
+#: inc/templates/parts/customize-select.php:10
+#: inc/templates/parts/customize-single-line-text.php:10
+#: inc/templates/parts/customize-table.php:10
+#: inc/templates/parts/customize-title.php:10
+#: inc/templates/parts/customize-website-url.php:10
+msgid "Above"
+msgstr "Сверху"
+
+#: inc/templates/parts/customize-address.php:8
+#: inc/templates/parts/customize-checkbox.php:8
+#: inc/templates/parts/customize-date.php:8
+#: inc/templates/parts/customize-email.php:8
+#: inc/templates/parts/customize-multi-line-text.php:8
+#: inc/templates/parts/customize-narrative.php:8
+#: inc/templates/parts/customize-number.php:8
+#: inc/templates/parts/customize-phone.php:8
+#: inc/templates/parts/customize-placeholder.php:8
+#: inc/templates/parts/customize-radio.php:8
+#: inc/templates/parts/customize-rating.php:8
+#: inc/templates/parts/customize-scale.php:8
+#: inc/templates/parts/customize-select.php:8
+#: inc/templates/parts/customize-single-line-text.php:8
+#: inc/templates/parts/customize-table.php:8
+#: inc/templates/parts/customize-title.php:8
+#: inc/templates/parts/customize-website-url.php:8
+msgid "Title placement"
+msgstr "Расположение заголовка"
+
+#: inc/classes/class-form-styles.php:703
+#: inc/classes/parts/class-part-title.php:8
+#: inc/classes/parts/class-part-title.php:28
+#: inc/templates/parts/customize-address.php:4
+#: inc/templates/parts/customize-checkbox.php:4
+#: inc/templates/parts/customize-date.php:4
+#: inc/templates/parts/customize-email.php:4
+#: inc/templates/parts/customize-multi-line-text.php:4
+#: inc/templates/parts/customize-narrative.php:4
+#: inc/templates/parts/customize-number.php:4
+#: inc/templates/parts/customize-phone.php:4
+#: inc/templates/parts/customize-placeholder.php:4
+#: inc/templates/parts/customize-radio.php:4
+#: inc/templates/parts/customize-rating.php:4
+#: inc/templates/parts/customize-scale.php:4
+#: inc/templates/parts/customize-select.php:4
+#: inc/templates/parts/customize-single-line-text.php:4
+#: inc/templates/parts/customize-table.php:4
+#: inc/templates/parts/customize-title.php:4
+#: inc/templates/parts/customize-website-url.php:4
+msgid "Title"
+msgstr "Заголовок"
+
+#: inc/classes/parts/class-part-checkbox.php:30
+#: inc/classes/parts/class-part-radio.php:31
+#: inc/classes/parts/class-part-table.php:32
+#: inc/templates/parts/customize-checkbox.php:38
+#: inc/templates/parts/customize-radio.php:38
+#: inc/templates/parts/customize-select.php:38
+msgid "Options"
+msgstr "Настройки"
+
+#: inc/classes/parts/class-part-checkbox.php:9
+msgid "For checkboxes allowing multiple selections."
+msgstr "Для флажков, допускающих множественный выбор."
+
+#: inc/classes/parts/class-part-checkbox.php:8
+msgid "Multiple Choice"
+msgstr "Множественный выбор"
+
+#: inc/classes/class-wp-customize-form-manager.php:182
+msgid "Form saved. You can add this form to any Page, Post and Widget area. Have questions? <a href=\"%s\" target=\"_blank\">Ask for help in our support forums</a>."
+msgstr "Форма сохранена. Вы можете добавить эту форму на любую Страницу, Запись или в область виджетов. Есть вопросы? <a href=\"%s\" target=\"_blank\"> Обратитесь за помощью на наши форумы поддержки </a>."
+
+#: inc/classes/class-tracking.php:210
+msgid "Error description"
+msgstr "Описание ошибки"
+
+#: inc/classes/class-tracking.php:209
+msgid "Aw snap! Something went wrong."
+msgstr "Вот блин! Что-то пошло не так."
+
+#: inc/classes/class-tracking.php:207
+msgid "Create your first form"
+msgstr "Создайте свою первую форму"
+
+#: inc/classes/class-tracking.php:206
+msgid "You've set up notifications and helped us to improve HappyForms. You're ready to get started with your first form."
+msgstr "Вы настроили уведомления и помогли нам улучшить HappyForms.Все готово для создания первой формы."
+
+#: inc/classes/class-tracking.php:205
+msgid "Now let's go enjoy HappyForms."
+msgstr "Теперь давайте отправимся в HappyForms."
+
+#: inc/classes/class-tracking.php:204
+msgid "Thank you!"
+msgstr "Спасибо!"
+
+#: inc/classes/class-message-admin.php:141 inc/classes/class-tracking.php:168
+msgid "Sorry, you are not allowed to access this page."
+msgstr "К сожалению, у вас нет доступа к этой странице."
+
+#: inc/classes/class-message-controller.php:190
+msgid "No response found in Trash"
+msgstr "Не найдено ответов в Корзине"
+
+#: inc/classes/class-message-controller.php:159
+msgid "New submission"
+msgstr "Новое сообщение"
+
+#: inc/classes/class-message-admin.php:687
+msgid "Delete Permanently"
+msgstr "Удалить навсегда"
+
+#: inc/classes/class-message-admin.php:615
+msgid "Export to CSV"
+msgstr "Экспорт в CSV"
+
+#: inc/classes/class-message-admin.php:610
+#: inc/classes/class-message-admin.php:859
+msgid "Mark unread"
+msgstr "Пометить как непрочитанное"
+
+#: inc/classes/class-message-admin.php:609
+#: inc/classes/class-message-admin.php:859
+msgid "Mark read"
+msgstr "Пометить как прочитанное"
+
+#: inc/classes/class-message-admin.php:537
+msgid "All forms"
+msgstr "Все формы"
+
+#: inc/classes/class-message-admin.php:328
+msgid "Number of response fields to show:"
+msgstr "Количество полей ответа для отображения:"
+
+#: inc/classes/class-message-admin.php:327
+msgid "Fields"
+msgstr "Поля"
+
+#: inc/classes/class-message-admin.php:304
+msgid "Number of columns"
+msgstr "Количество столбцов"
+
+#: inc/classes/class-message-admin.php:279
+msgid "%s response restored from the Trash."
+msgid_plural "%s responses restored from the Trash."
+msgstr[0] "%s ответ восстановлен из корзины."
+msgstr[1] "%s ответа восстановлено из корзины."
+msgstr[2] "%s ответов восстановлено из корзины."
+
+#: inc/classes/class-message-admin.php:278
+msgid "%s response moved to the Trash."
+msgid_plural "%s responses moved to the Trash."
+msgstr[0] "%s ответ перемещен в корзину."
+msgstr[1] "%s ответа перемещено в корзину."
+msgstr[2] "%s ответов перемещено в корзину."
+
+#: inc/classes/class-message-admin.php:277
+msgid "%s response permanently deleted."
+msgid_plural "%s responses permanently deleted."
+msgstr[0] "%s ответ удален."
+msgstr[1] "%s ответа удалено."
+msgstr[2] "%s ответов удалено."
+
+#: inc/classes/class-message-admin.php:276
+msgid "%s response not updated, somebody is editing it."
+msgid_plural "%s responses not updated, somebody is editing them."
+msgstr[0] "%s ответ не обновлен, кто-то их редактирует."
+msgstr[1] "%s ответа не обновлено, кто-то их редактирует."
+msgstr[2] "%s ответов не обновлено, кто-то их редактирует."
+
+#: inc/classes/class-message-admin.php:247
+msgid "Response restored to revision from %s."
+msgstr "Ответ восстановлен до редакции %s."
+
+#: inc/classes/class-happyforms-widget.php:75
+msgid "Form:"
+msgstr "Форма:"
+
+#: inc/classes/class-happyforms-widget.php:71
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: inc/classes/class-happyforms-widget.php:15
+msgid "Easily add your HappyForms to widget areas."
+msgstr "Легко добавьте свою форму в область виджетов."
+
+#: inc/classes/class-happyforms-plugin.php:185
+#: inc/classes/class-happyforms-plugin.php:186
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#: inc/classes/class-happyforms-plugin.php:164
+#: inc/classes/class-happyforms-plugin.php:165
+msgid "Add New"
+msgstr "Добавить новую"
+
+#. #-#-#-#-#  happyforms-code.pot (HappyForms 1.6.6)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: inc/classes/class-happyforms-plugin.php:146
+#: inc/classes/class-happyforms-widget.php:13
+msgid "HappyForms"
+msgstr "HappyForms"
+
+#: inc/classes/class-happyforms-plugin.php:145
+msgid "HappyForms Index"
+msgstr "HappyForms"
+
+#: inc/templates/customize-form-setup.php:4
+msgid "Confirmation message"
+msgstr "Подтверждающее сообщение"
+
+#: inc/classes/class-form-styles.php:841
+#: inc/templates/parts/customize-address.php:77
+#: inc/templates/parts/customize-checkbox.php:53
+#: inc/templates/parts/customize-date.php:99
+#: inc/templates/parts/customize-email.php:45
+#: inc/templates/parts/customize-legal.php:4
+#: inc/templates/parts/customize-multi-line-text.php:45
+#: inc/templates/parts/customize-narrative.php:31
+#: inc/templates/parts/customize-number.php:74
+#: inc/templates/parts/customize-phone.php:68
+#: inc/templates/parts/customize-placeholder.php:26
+#: inc/templates/parts/customize-radio.php:53
+#: inc/templates/parts/customize-rating.php:73
+#: inc/templates/parts/customize-scale.php:85
+#: inc/templates/parts/customize-select.php:52
+#: inc/templates/parts/customize-single-line-text.php:50
+#: inc/templates/parts/customize-table.php:69
+#: inc/templates/parts/customize-title.php:38
+#: inc/templates/parts/customize-website-url.php:45
+msgid "Width"
+msgstr "Ширина"
+
+#: inc/classes/class-form-styles.php:582 inc/classes/class-form-styles.php:856
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: inc/classes/class-form-styles.php:827
+msgid "Submit button"
+msgstr "Кнопка «Отправить»"
+
+#: inc/classes/class-form-styles.php:539 inc/classes/class-form-styles.php:718
+msgid "Required text"
+msgstr "Обязательный текст"
+
+#: inc/classes/class-form-styles.php:684
+msgid "Description font size"
+msgstr "Размер шрифта описания"
+
+#: inc/classes/class-form-styles.php:669
+msgid "Title font size"
+msgstr "Размер шрифта заголовка"
+
+#: inc/classes/class-form-styles.php:674
+msgid "Title font weight"
+msgstr "Насыщенность шрифта заголовка"
+
+#: inc/classes/class-form-styles.php:549
+msgid "Font weight"
+msgstr "Насыщенность шрифта"
+
+#: inc/classes/class-form-part-library.php:217
+msgid "Missing validation callback for field %s"
+msgstr "Отсутствует проверка обратного вызова для поля %s"
+
+#: inc/classes/class-form-part-library.php:186
+msgid "Part definition not found"
+msgstr " Определение части не найдено"
+
+#: inc/classes/class-form-part-library.php:179
+msgid "Invalid data"
+msgstr "Неверные данные"
+
+#: inc/classes/class-form-controller.php:810
+#: inc/classes/class-message-controller.php:291
+#: inc/classes/class-message-controller.php:391
+#: inc/classes/class-message-controller.php:426
+msgid "Your submission contains errors."
+msgstr "В вашем сообщении есть ошибки."
+
+#: inc/classes/class-form-controller.php:245
+msgid "We received your message"
+msgstr "Мы получили ваше сообщение"
+
+#: inc/classes/class-form-controller.php:221
+#: inc/classes/class-form-controller.php:249
+msgid "Your message has been successfully sent. We appreciate you contacting us and we’ll be in touch soon."
+msgstr "Ваше сообщение было успешно отправлено. Мы ценим, что вы связались с нами, и мы скоро свяжемся с вами."
+
+#: inc/classes/class-form-controller.php:200
+msgid "Untitled form"
+msgstr "Безымянная форма"
+
+#: inc/classes/class-form-controller.php:100
+msgid "No forms found in Trash"
+msgstr "Формы не найдены  в корзине "
+
+#: inc/classes/class-form-controller.php:99
+msgid "No form found"
+msgstr "Формы не найдены"
+
+#: inc/classes/class-form-controller.php:98
+msgid "Search Forms"
+msgstr "Искать формы"
+
+#: inc/classes/class-form-controller.php:97
+msgid "View forms"
+msgstr "Просмотреть формы"
+
+#: inc/classes/class-form-controller.php:94
+msgid "Edit form"
+msgstr "Редактировать форму"
+
+#: inc/classes/class-form-controller.php:93
+#: inc/classes/class-form-controller.php:95
+msgid "Build form"
+msgstr "Создать форму"
+
+#: inc/classes/class-form-controller.php:92
+#: inc/classes/class-message-admin.php:372
+#: inc/classes/class-message-admin.php:849
+msgid "Form"
+msgstr "Форма"
+
+#: inc/classes/class-form-controller.php:91
+#: inc/classes/class-form-controller.php:101
+#: inc/classes/class-happyforms-plugin.php:156
+#: inc/classes/class-happyforms-plugin.php:157
+msgid "All Forms"
+msgstr "Все формы"
+
+#: inc/classes/class-form-admin.php:435
+msgid " Copy"
+msgstr "Скопировать"
+
+#: inc/classes/class-form-admin.php:411
+msgid "Form duplicated succesfully."
+msgstr "Дублирование формы завершено."
+
+#: inc/classes/class-form-admin.php:366 inc/classes/class-message-admin.php:611
+#: inc/classes/class-message-admin.php:864
+msgid "Trash"
+msgstr "Корзина"
+
+#: inc/classes/class-form-admin.php:362
+#: inc/templates/customize-form-item.php:27
+#: inc/templates/customize-form-part-footer.php:4
+msgid "Duplicate"
+msgstr "Дублировать"
+
+#: inc/classes/class-form-admin.php:358
+#: inc/templates/partials/form-confirm-preview.php:3
+msgid "Edit"
+msgstr "Редактировать"
+
+#: inc/classes/class-form-admin.php:304
+msgid "Copy to clipboard"
+msgstr "Скопировать в буфер обмена"
+
+#: inc/classes/class-form-admin.php:255
+msgid "Author"
+msgstr "Автор"
+
+#: inc/classes/class-form-admin.php:254
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: inc/classes/class-form-admin.php:201
+msgid "%s form restored from the Trash."
+msgid_plural "%s forms restored from the Trash."
+msgstr[0] "%s форма восстановлена из корзины."
+msgstr[1] "%s формы восстановлены из корзины."
+msgstr[2] "%s форм восстановлено из корзины."
+
+#: inc/classes/class-form-admin.php:200
+msgid "%s form moved to the Trash."
+msgid_plural "%s forms moved to the Trash."
+msgstr[0] "%s форма перемещена в корзину."
+msgstr[1] "%s формы перемещены в корзину."
+msgstr[2] "%s форм перемещено в корзину."
+
+#: inc/classes/class-form-admin.php:199
+msgid "%s form permanently deleted."
+msgid_plural "%s forms permanently deleted."
+msgstr[0] "%s форма удалена."
+msgstr[1] "%s формы удалены."
+msgstr[2] "%s форм удалено."
+
+#: inc/classes/class-form-admin.php:198
+msgid "%s form not updated, somebody is editing it."
+msgid_plural "%s forms not updated, somebody is editing them."
+msgstr[0] "%s форма не обновлена, кто-то её редактирует."
+msgstr[1] "%s формы не обновлены, кто-то их редактирует."
+msgstr[2] "%s форм не обновлено, кто-то их редактирует."
+
+#: inc/classes/class-form-admin.php:197
+msgid "%s form updated."
+msgid_plural "%s forms updated."
+msgstr[0] "%s форма обновлена."
+msgstr[1] "%s формы обновлены."
+msgstr[2] "%s форм обновлено."
+
+#: inc/classes/class-form-admin.php:174
+msgid "Form draft updated."
+msgstr "Черновик формы обновлён."
+
+#: inc/classes/class-form-admin.php:173
+msgid "Form scheduled."
+msgstr "Форма запланирована."
+
+#: inc/classes/class-form-admin.php:172
+msgid "Form submitted."
+msgstr "Форма отправлена."
+
+#: inc/classes/class-form-admin.php:171
+#: inc/classes/class-wp-customize-form-manager.php:164
+msgid "Form saved."
+msgstr "Форма сохранена."
+
+#: inc/classes/class-form-admin.php:170
+msgid "Form published."
+msgstr "Форма опубликована."
+
+#: inc/classes/class-form-admin.php:169
+msgid "Form restored to revision from %s."
+msgstr "Форма восстановлена до редакции %s."
+
+#: inc/classes/class-form-admin.php:167 inc/classes/class-message-admin.php:245
+msgid "Custom field deleted."
+msgstr "Произвольное поле удалено."
+
+#: inc/classes/class-form-admin.php:166 inc/classes/class-message-admin.php:244
+msgid "Custom field updated."
+msgstr "Произвольное поле обновлено."
+
+#: inc/classes/class-form-admin.php:165 inc/classes/class-form-admin.php:168
+msgid "Form updated."
+msgstr "Форма обновлена."
+
+#: inc/classes/class-form-admin.php:160
+msgid "Preview form"
+msgstr "Предварительный просмотр формы"
+
+#: inc/classes/class-form-admin.php:155
+#: inc/classes/class-form-controller.php:96
+msgid "View form"
+msgstr "Просмотреть форму"
+
+#: inc/templates/admin-tracking.php:29
+msgid "continue"
+msgstr "продолжите"
+
+#: inc/templates/admin-tracking.php:29
+msgid "Or, skip this step and "
+msgstr "Или пропустите этот шаг и"
+
+#: inc/templates/admin-tracking.php:20
+msgid "Allow and set up HappyForms"
+msgstr "Разрешить и настроить HappyForms"
+
+#: inc/templates/admin-tracking.php:18
+#: inc/templates/customize-form-setup.php:17
+msgid "Email address"
+msgstr "Email адрес"
+
+#: inc/templates/admin-tracking.php:17
+msgid "Let's set up HappyForms! Enter your email below to agree to notification and to share some data about your usage with"
+msgstr "Давайте создадим HappyForms! Введите свой адрес электронной почты, чтобы согласиться на уведомление и поделиться некоторыми данными о своем об использовании с помощью"
+
+#: inc/templates/admin-tracking.php:16
+msgid "Just one more step before you get started:"
+msgstr "Еще один шаг перед тем, как вы начнете:"
+
+#: inc/templates/admin-tracking.php:14
+msgid "Setup communication"
+msgstr "Настройка связи"
+
+#: inc/templates/admin-tracking.php:7
+msgid "Welcome to HappyForms!"
+msgstr "Добро пожаловать в HappyForms!"

@@ -1,0 +1,28 @@
+// media query
+=media($orientation)
+   @if ($orientation == xs)
+      $orientation: 420px
+   @else if($orientation == sm)
+      $orientation: 576px
+   @else if($orientation == md)
+      $orientation: 768px
+   @else if($orientation == lg)
+      $orientation: 992px
+   @else if($orientation == xl)
+      $orientation: 1200px
+
+   @media screen and (max-width: $orientation)
+      @content
+
+// transition
+=transition
+   transition: 0.3s
+
+=center
+   display: flex
+   align-items: center
+   justify-content: center
+
+=box-shadow
+   box-shadow: 0 4px 11px rgba(0,0,0,0.16)
+   

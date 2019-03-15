@@ -1,0 +1,87 @@
+.c-service-calc
+   +box-shadow
+   padding: 50px 88px 61px 114px
+   min-width: 750px
+   background-color: #fff
+   display: flex
+   flex-direction: column
+   align-items: flex-end
+   +media(xl)
+      padding: 40px
+   +media(lg)
+      min-width: auto
+   +media(md)
+      width: 415px
+   +media(sm)
+      padding: 15px
+      width: 355px
+   .out-input
+      user-select: none
+   
+   .furniture-type
+      margin-bottom: rem(33px)
+   .calc-options
+      margin-bottom: rem(33px)
+      display: flex
+      display: none
+      +media(md)
+         flex-wrap: wrap
+      &.active
+         display: flex
+   // mixed
+   .c-form_row
+      margin-bottom: 0
+      +media(md)
+         flex-basis: 100%
+         justify-content: flex-end
+         margin-right: 0
+      &:not(:last-child)
+         margin-right: 8px
+         +media(md)
+            margin-right: 0
+   .type-select
+      position: relative
+   .section_title
+      margin-bottom: rem(45px)
+   .c-form_input
+      width: 131px
+      position: relative
+   .c-form_group:not(:last-child)
+      margin-right: 8px
+   .type-select__dropdown
+      position: absolute
+      top: calc(100% + 7px)
+      border: 1px solid $light-blue
+      border-radius: 4px
+      overflow: hidden
+      background-color: #fff
+      width: 100%
+      // background-color: transparent
+      // position: absolute
+      // width: 100%
+      // height: 100%
+   .type-select
+      width: 131px
+   .type-select__option
+      padding: 8px 13px
+      line-height: 19px
+      background-color: #ffffff
+      color: $blue
+      width: 100%
+      text-align: left
+      &:hover
+         background-color: $light-blue
+         color: #ffffff
+      &:not(:last-child)
+         border-bottom: 1px solid $light-blue
+      &--value
+         @extend .c-btn
+         @extend .c-btn--outline-light-blue
+         line-height: inherit
+         padding: rem(12px) rem(10px) !important
+         &:hover
+            background-color: #fff
+            color: $blue
+   .light-furniture .type-select
+      width: 150px
+      

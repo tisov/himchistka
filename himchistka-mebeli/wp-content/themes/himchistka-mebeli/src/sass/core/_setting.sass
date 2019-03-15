@@ -1,0 +1,89 @@
+// general setting
+html
+   font-size: $base-font-size
+   +media(xl)
+      font-size: $base-font-size - 1px
+   +media(lg)
+      font-size: $base-font-size - 2px
+   +media(md)
+      font-size: $base-font-size - 3px
+   +media(sm)
+      font-size: $base-font-size - 4px
+   
+body
+   font-size: $base-font-size
+   font-weight: 400
+   font-family: 'open sans', sans-serif
+   line-height: $base-line-height 
+   color: $dark
+
+*,
+*::before,
+*::after
+   box-sizing: border-box
+   margin: 0
+   padding: 0
+
+ul
+   list-style: none
+   margin: 0
+
+a,
+span
+   display: inline-block
+
+a
+   +transition
+   color: inherit
+   &:hover
+      text-decoration: none
+      color: $orange
+
+h1, h2, h3, h4, h5, h6
+   margin: 0
+   font-family: 'Merriweather', sans-serif
+   font-weight: 700
+
+p
+   margin: 0
+
+img
+   vertical-align: middle
+   width: 100%
+   &:focus
+      outline: none
+
+button,
+input,
+textarea
+   border: none
+   outline: none
+   border-radius: 0
+   &:focus
+      outline: none
+
+button
+   cursor: pointer
+   &:focus
+      outline: none
+
+
+
+// classes
+.container
+   max-width: 1170px
+
+// .dropdown-menu
+//    visibility: hidden
+//    top: 120%
+//    opacity: 0
+//    display: block
+//    padding: 0
+//    border: none
+//    border-radius: 0
+//    +transition
+//    &.show
+//       visibility: visible
+//       opacity: 1
+//       top: 110%
+//       display: block

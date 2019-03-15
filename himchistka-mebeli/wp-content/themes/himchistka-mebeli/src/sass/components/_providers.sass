@@ -1,0 +1,38 @@
+.c-providers
+   background-color: #F8FBFD
+   padding: rem(33px) rem(98px)
+   +media(lg)
+      padding-left: 30px
+      padding-right: 30px
+   +media(md)
+      padding: 15px
+   .title
+      font-size: 14px
+      font-family: 'open sans', sans-serif
+      color: #9F9F9F
+      margin-bottom: 33px
+   .providers-list
+      margin: 0 15px
+      display: flex
+      align-items: center
+      +media(md)
+         align-items: stretch
+         flex-wrap: wrap
+      +media(sm)
+         margin: 0 -15px
+      .item:not(:last-child)
+         margin-right: 68px
+         +media(xl)
+            margin-right: 30px
+         +media(lg)
+            margin-right: 30px
+         +media(md)
+            margin-right: 0
+      .item
+         +media(md)
+            display: flex
+            align-items: center
+            margin-right: 0
+            margin-bottom: 25px
+            padding: 0 15px
+            flex-basis: 25%

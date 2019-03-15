@@ -1,0 +1,31 @@
+.c-footer
+   background-color: #F8FBFD
+   padding: rem(81px) rem(20px) rem(93px)
+   .wp-group
+      display: flex
+      +media(sm)
+         flex-direction: column
+         justify-content: flex-start
+         .c-widget-footer:first-child
+            margin-bottom: 20px
+         .c-widget-footer:last-child
+            margin-left: 0 !important
+   .col-lg-5 .c-widget-footer
+      margin-left: 30px
+      +media(lg)
+         margin-left: 0
+   
+.footer
+   .copyright-section
+      background-color: $blue
+      color: #ffffff
+      padding: rem(20px) 0
+   .copyright
+      display: flex
+      justify-content: space-between
+
+
+.bor-right
+   border-right: 1px solid $blue
+   +media(lg)
+      border-right: none

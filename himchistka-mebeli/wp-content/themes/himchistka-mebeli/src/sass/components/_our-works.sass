@@ -1,0 +1,97 @@
+.c-our-works
+   .head
+      display: flex
+      justify-content: center
+      position: relative
+      margin-bottom: rem(50px)
+      .title
+         color: $blue
+         z-index: 1
+      .title-img
+         position: absolute
+         left: 50%
+         top: 0
+         transform: translate(-50%, -40%)
+   .compare-titles
+      display: flex
+      justify-content: space-around
+      font-size: rem(24px)
+      color: $blue
+      font-family: 'merriweather', sans-serif
+      margin-bottom: rem(22px)
+      font-weight: 700
+   .compare-wrap
+      margin-bottom: rem(30px)
+      position: relative
+      height: 400px
+      +media(md)
+         height: 300px
+      +media(sm)
+         height: 240px
+      +media(xs)
+         height: 200px
+   .compare-item
+      position: absolute
+      height: 100%
+      width: 100%
+      left: 0
+      top: 0
+      overflow: hidden
+      background-position: -55px 0
+      background-size: cover
+      &:nth-of-type(1)
+         background-repeat: no-repeat
+      &:nth-of-type(3)
+         background-repeat: no-repeat
+         width: 50%
+         transition: 0.1s
+   // compare slider control
+   .slider-control
+      position: absolute
+      left: 50%   
+      top: 0
+      height: 100%
+      z-index: 10
+      transition: 0.1s
+      .control-circle-top,
+      .control-circle-bottom
+         width: 24px
+         height: 24px
+         position: absolute
+         border: 3px solid #7FC4FD
+         border-radius: 50%
+         background-color: #fff
+         display: flex
+         align-items: center
+         justify-content: center
+         z-index: 11
+         &::before
+            content: ''
+            width: 10px
+            height: 10px
+            background-color: #2699FB
+            border-radius: 50%
+      .control-circle-top
+         left: 0
+         top: 0
+         transform: translate(-50%, -50%)
+      .control-circle-bottom
+         left: 0
+         bottom: 0
+         transform: translate(-50%, 50%)
+      .control-line
+         position: absolute
+         left: 50%
+         height: 100%
+         width: 2px
+         transform: translateX(-50%)
+         background-color: #BFD8EC
+
+
+      .title
+         display: block
+         text-align: center
+         font-size: rem(24px)
+         color: $blue
+         font-family: 'merriweather', sans-serif
+         margin-bottom: rem(22px)

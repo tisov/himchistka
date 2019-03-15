@@ -1,0 +1,164 @@
+.header
+   overflow: hidden
+   
+.l-top-bar
+   background-color: #fafafa
+   padding: 15px 0
+   display: flex
+   justify-content: flex-end
+   align-items: center
+
+.l-navbar
+   padding: 19px 0
+   +transition
+   .nav
+      display: flex
+      justify-content: flex-end
+   &.sticky
+      position: fixed
+      z-index: 999
+      background-color: #fff
+      top: 0
+      left: 0
+      width: 100%
+      padding: 10px 0
+      +box-shadow
+      .logo
+         width: 45px
+
+
+.l-banner-area
+   padding-top: rem(145px)
+   padding-bottom: rem(148px)
+   display: flex
+   align-items: center
+   justify-content: center
+   position: relative
+   background-repeat: no-repeat
+   background-position: center center
+   background-size: cover
+   +media(lg)
+      padding: rem(100px) 0
+   +media(sm)
+      padding: rem(40px) 15px
+   .bottom-left-item,
+   .top-left-item,
+   .top-right-item,
+   .bottom-right-item
+      transform-origin: center
+      position: absolute
+      +media(xl)
+         img
+            width: 80%
+      +media(lg)
+         img
+            width: 60%
+      +media(lg)
+         img
+            width: 40%
+      +media(sm)
+         display: none
+   .bottom-left-item
+      bottom: 15px
+      left: 180px
+      transform: rotateZ(-27deg)
+      +media(xl)
+         left: 140px
+      +media(lg)
+         left: 70px
+   .top-left-item
+      top: -10px
+      left: 150px
+      transform: rotateZ(-30deg)
+      +media(xl)
+         left: 110px
+      +media(lg)
+         left: 80px
+   .top-right-item
+      top: 50px
+      right: 80px
+      transform: rotateZ(45deg)
+      +media(xl)
+         right: 40px
+      +media(lg)
+         right: -80px
+         top: 80px
+      +media(md)
+         right: -150px
+         top: 100px
+   .bottom-right-item
+      right: 250px
+      bottom: -38px
+      transform: rotateZ(45deg)
+      +media(xl)
+         right: 210px
+      +media(lg)
+         right: 40px
+   // mixed 
+   .c-slogan
+      position: relative
+      z-index: 1
+ 
+// bg overlay
+.bg-overlay
+   position: fixed
+   z-index: 998
+   left: 0
+   top: 0
+   height: 100%
+   width: 100%
+   background-color: #333
+   opacity: 0
+   visibility: hidden
+   +transition
+   &.show
+      visibility: visible
+      opacity: 0.5
+
+.slick-slider
+   &:focus,
+   .slick-current:focus
+      outline: none
+   
+// happy forms plugin
+.happyforms-flex
+   padding: 0
+   display: flex
+   +media(sm)
+      flex-direction: column
+      align-items: flex-start
+      .happyforms-form__part
+         margin-right: 0
+         margin-bottom: 15px
+.happyform-form__part
+   padding: 0
+   margin: 0
+   width: auto
+.happyforms-form__part
+   margin-right: rem(20px)
+.happyforms-part--submit
+   width: auto
+   padding: 0
+.happyforms-part__label
+   display: none
+   margin: 0
+.happyforms-part__el span
+   display: none
+.happyforms-part__description
+   margin: 0
+.happyforms-part input[type=text]
+   padding: rem(12px) rem(10px)
+   display: block
+   background: none
+   border-radius: 4px
+   border: 1px solid $light-blue
+   font-size: 14px
+   color: $blue
+   &:focus
+      border-color: $blue
+   &::placeholder
+      color: $light-blue
+      font-size: 12px
+
+
+   

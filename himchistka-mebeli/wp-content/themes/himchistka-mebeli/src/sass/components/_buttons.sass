@@ -1,0 +1,88 @@
+// buttons
+.c-btn
+   border: 1px solid
+   border-radius: 5px
+   display: inline-block
+   padding: rem(12px) rem(23px)
+   font-size: $base-font-size
+   font-weight: 600
+   text-align: center
+   cursor: pointer
+   background-color: #ffffff
+   color: #707070
+   border-color: transparent
+   +transition
+   // styles
+   &--sm
+      padding: rem(9px) rem(25px)
+      font-weight: normal
+   &--orange
+      border-color: transparent
+      background-color: $orange
+      color: #ffffff
+      &:hover
+         background-color: darken($orange, 10%)
+         border-color: transparent
+         color: #ffffff
+
+   &--blue
+      background-color: $blue
+      color: #ffffff
+      border-color: transparent
+      &:hover
+         background-color: darken($blue, 10%)
+         border-color: transparent
+         color: #ffffff
+
+   &--outline-light-blue
+      border-color: $light-blue
+      color: $blue
+      &:hover
+         border-color: $blue
+         color: $blue
+   &--outline-blue
+      border-color: $blue
+      color: $blue
+      &:hover,
+      &.active
+         background-color: $blue
+         color: #ffffff
+         border-color: transparent
+   &--block
+      display: block
+      width: 100%       
+
+// buttons group
+.c-btn-group
+   display: flex
+   align-items: center
+   .c-btn
+      &:not(:first-child)
+         border-left: none
+         border-top-left-radius: 0
+         border-bottom-left-radius: 0
+      &:not(:last-child)
+         border-top-right-radius: 0
+         border-bottom-right-radius: 0         
+
+
+// slider buttons
+.c-slider-btn
+   width: rem(76px)
+   height: rem(76px)
+   font-size: rem(35px)
+   +center
+   color: #ffffff
+   &--orange
+      background-color: $orange
+      &:hover
+         background-color: darken($orange, 10%)
+   &--blue
+      background-color: $blue
+      &:hover
+         background-color: darken($blue, 10%)
+
+// mobile menu toggler
+.c-mmenu-toggler
+   border: 1px solid #fafafa
+   font-size: 20px

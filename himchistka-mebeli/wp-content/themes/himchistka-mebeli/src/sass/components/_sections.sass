@@ -1,0 +1,66 @@
+.section
+   &_title
+      font-size: rem(30px)
+   &--calc
+      min-height: rem(491px)
+      background-size: cover
+      background-repeat: no-repeat
+      background-position: center
+      position: relative
+      .bg-item
+         height: 311px
+         width: 493px
+         background-repeat: no-repeat
+         background-size: contain
+         background-position: center
+         position: absolute
+         bottom: rem(33px)
+         left: rem(20px)
+         z-index: 2
+         +media(xl)
+            height: calc(311px - 100px)
+            width: calc(493px - 100px)
+         +media(lg)
+            display: none
+      .c-service-calc
+         position: absolute
+         top: rem(-95px)
+         right: rem(50px)
+         z-index: 1
+         +media(xl)
+            top: rem(-50px)
+         +media(sm)
+            right: 15px
+   &--prices
+      position: relative
+      .prices-sec-img
+         position: absolute
+         right: 0
+         top: 0
+         overflow: hidden
+   &--reviews
+      padding-top: rem(57px)
+      padding-bottom: rem(85px)
+      background-color: #F8FBFD
+      +media(sm)
+         padding-bottom: 30px 0
+      .title
+         color: $blue
+         margin-bottom: rem(40px)
+      .review-slider
+         display: flex
+         margin: 0 -9px
+         overflow: hidden
+         .slick-track
+            display: flex
+      // .review-slide-wrap
+      //    display: flex
+      //    align-items: center
+      //    margin: 0 -9px
+      // mixed
+      .c-slider-btn
+         min-width: rem(76px)
+      .c-review
+         margin-left: 9px
+         margin-right: 9px
+      

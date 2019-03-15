@@ -1,0 +1,62 @@
+.cleaning-offer-slider
+   +box-shadow
+   
+.c-cleaning-offer
+   display: flex
+   // box-shadow: 0 4px 11px rgba(0,0,0,0.16)
+   +media(md)
+      flex-direction: column
+   .info
+      padding-left: rem(98px)
+      padding-top: rem(60px)
+      padding-bottom: rem(60px)
+      padding-right: rem(60px)
+      position: relative
+      flex-grow: 1
+      +media(lg)
+         padding: rem(40px)
+      +media(sm)
+         padding: 15px
+      >.item-count
+         font-size: 14px
+         font-weight: 700
+         color: #c2c2c2
+         margin-bottom: rem(15px)
+      >.title
+         font-family: 'open sans', sans-serif
+         font-size: rem(24px)
+         color: $blue
+         margin-bottom: rem(15px)
+      >.text
+         font-family: 'merriweather', sans-serif
+         font-size: 14px
+         color: $dark
+         margin-bottom: rem(35px)
+         +media(sm)
+            font-size: 13px
+            
+         // width: 496px
+      >.c-slider-btn
+         position: absolute
+         right: 0
+         bottom: 0
+   .thumb
+      background-size: cover
+      background-repeat: no-repeat
+      background-position: center
+      min-width: 396px
+      position: relative
+      +media(lg)
+         min-width: 330px
+      +media(md)
+         min-height: 250px
+         min-width: auto
+      >.c-slider-btn
+         position: absolute
+         left: 0
+         bottom: 0
+         +media(md)
+            top: 0
+            bottom: auto
+            right: 0
+            left: auto

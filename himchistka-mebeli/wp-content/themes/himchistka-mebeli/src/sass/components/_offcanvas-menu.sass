@@ -1,0 +1,81 @@
+.c-mmenu
+   $this: &
+   width: 300px
+   position: fixed
+   z-index: 999
+   top: 0
+   left: 0
+   overflow: hidden
+   height: 100%
+   background-color: #fff
+   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.16)
+   visibility: hidden
+   opacity: 0
+   transform: translateX(-50%)
+   +transition
+   &-toggler
+      border: 1px solid $orange
+      font-size: 26px
+      background-color: $orange
+      color: #ffffff
+      border-radius: 3px
+      padding: 5px 10px
+   &.show
+      visibility: visible
+      opacity: 1
+      transform: translateX(0)
+   &_head
+      min-height: 50px
+      border-bottom: 1px solid #e9e9e9
+      color: $dark
+      display: flex
+   &_prev-btn
+      border-right: 1px solid #e9e9e9
+      visibility: hidden
+      &.show
+         visibility: visible
+   &_menu-title
+      flex-grow: 1
+      text-transform: uppercase
+      display: flex
+      align-items: center
+      justify-content: center
+      visibility: hidden
+      &.show
+         visibility: visible
+   &_close-btn,
+   &_prev-btn
+      border-left: 1px solid #e9e9e9
+      width: 50px
+      font-size: 20px
+      display: flex
+      align-items: center
+      justify-content: center
+   &_body
+      position: relative
+      height: calc(100% - 50px)
+      overflow-y: auto
+   &_list
+      position: relative
+      height: 100%
+   &_list-item
+      display: block
+      padding-left: 20px
+      &:not(:last-child)
+         border-bottom: 1px solid #e9e9e9
+   &_nav-link
+      display: block
+      padding: 10px 20px
+      padding-right: 0
+      text-transform: uppercase
+      font-size: 14px
+      color: $dark
+      position: relative
+      i
+         position: absolute
+         right: 0
+         top: 0
+         width: 45px
+         line-height: 45px
+         text-align: center
+         border-left: 1px solid #e9e9e9

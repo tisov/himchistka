@@ -1,0 +1,34 @@
+.c-header-contacts
+   display: flex
+   align-items: center
+   justify-content: flex-end
+   color: $dark
+   +media(sm)
+      flex-direction: column
+   .contact-type
+      display: flex
+      align-items: center
+      margin-right: 11px
+      +media(sm)
+         margin-bottom: 10px
+      .icon
+         width: 33.5px
+         height: 33.5px
+         background-color: $orange
+         border-radius: 50%
+         color: #ffffff
+         +center
+         font-size: 18px
+         margin-right: 7px
+      .text
+         opacity: 0.43
+   .phone-dark
+      font-size: 15px
+      font-weight: 600
+      margin-right: 15px
+      text-decoration: underline
+      +media(sm)
+         margin-right: 0
+   .phone
+      opacity: 0.43
+

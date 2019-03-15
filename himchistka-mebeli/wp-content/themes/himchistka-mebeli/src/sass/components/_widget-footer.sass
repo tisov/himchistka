@@ -1,0 +1,30 @@
+.c-widget-footer
+   display: flex
+   .icon
+      font-size: 25px
+      color: $orange
+      margin-right: 10px
+   .info
+      .title
+         font-size: rem(24px)
+         margin-bottom: rem(32px)
+      .body
+         .phone-num
+            font-size: rem(18px)
+            font-weight: 700
+            display: block
+         .links
+            display: flex
+            +media(sm)
+               flex-wrap: wrap
+            .links-list
+               margin-right: rem(43px)
+   .c-form_input
+      margin-right: rem(26px)
+   .c-form_row
+      +media(xl)
+         flex-direction: column
+         align-items: flex-start
+         .c-form_input
+            margin-right: 0
+            margin-bottom: 15px

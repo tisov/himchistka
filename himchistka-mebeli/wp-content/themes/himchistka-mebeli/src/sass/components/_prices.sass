@@ -1,0 +1,39 @@
+.c-prices
+   padding: rem(46px) rem(36px)
+   width: rem(797px)
+   border: 1px solid #E2E2E2
+   background-size: cover
+   background-position: center
+   background-repeat: no-repeat
+   +media(lg)
+      width: auto
+   +media(sm)
+      padding: 15px
+   .title
+      font-size: rem(24px)
+      color: $blue
+      margin-bottom: rem(35px)
+   .price-list
+      margin-bottom: rem(40px)
+      li
+         color: $orange
+         font-size: rem(36px)
+         font-family: 'merriweather', sans-serif
+         font-weight: 700
+         line-height: normal
+         margin-bottom: rem(10px)
+         +media(sm)
+            font-size: 16px
+   // mixed
+   .buttons-group
+      +media(sm)
+         display: flex
+         flex-direction: column
+         align-items: flex-start
+      .c-btn--orange
+         margin-right: rem(19px)
+         +media(sm)
+            margin-right: 0
+            margin-bottom: 15px
+      .c-btn
+         +box-shadow
