@@ -7,14 +7,17 @@ function debug($arg) {
    echo '</pre>';
 }
 
-
-function himchistka_setup() {
+function add_theme_scripts() {
    wp_enqueue_style('fontawesome', ROOT.'/public/fonts/fontawesome/css/all.css');
    wp_enqueue_style('plugins', ROOT.'/dist/css/plugins.bundle.css');
    wp_enqueue_style('main', ROOT . '/dist/css/main.css');
    
    wp_enqueue_script('plugins-js', ROOT.'/dist/js/plugins.bundle.js','','',true);
    wp_enqueue_script('main-js', ROOT.'/dist/js/main.js','','',true);
+}
+add_action('wp_enqueue_scripts', 'add_theme_scripts');
+
+function himchistka_setup() {
    // custom logo support
    add_theme_support('custom-logo');
    add_theme_support('post-thumbnails');
@@ -79,4 +82,3 @@ function reviews_post_type(){
 }
 add_action('init', 'reviews_post_type');
 ?>
-

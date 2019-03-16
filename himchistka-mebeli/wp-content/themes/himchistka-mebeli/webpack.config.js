@@ -1,18 +1,11 @@
 let path = require('path');
 let MiniCssExtractPlugin = require('mini-css-extract-plugin');
 let webpack = require('webpack');
-// let isDevMode = '';
 
 
-// let config = 
-
-// if mode development - eval sourcemap
 module.exports = (env, options) => {
    let isProduction = options.mode === 'production';
    
-   // isDevMode = options.mode;
-   
-   // let devMode = isProduction ? false : 'eval-sourcemap';
    
    return {
       entry: './src/index.js',
